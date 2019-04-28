@@ -12,13 +12,14 @@ header {
     margin: 10px;
 }
 
-header h1 {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
 header h1, header h2 {
     margin: 2px 0;
+}
+
+header h1 {
+    letter-spacing: 2px;
+    margin-right: -2px;
+    text-transform: uppercase;
 }
 
 nav {
