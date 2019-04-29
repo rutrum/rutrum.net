@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
     color: var(--dark);
     background: var(--light);
     padding-bottom: 10em; 
@@ -47,6 +47,7 @@ header h1:hover {
 
 header h1, header h2 {
     margin: 2px 0;
+    font-weight: bolder;
 }
 
 header h1 {
