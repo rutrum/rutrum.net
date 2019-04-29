@@ -1,8 +1,28 @@
+:root {
+    --dark: #222;
+    --light: #fefefe;
+    --uns-red: #c58a1d;
+    --red: #f55;
+    --dark-red: #c00;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--dark);
+    background: var(--light);
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--red);
+}
+
+a:hover {
+    color: var(--dark-red);
 }
 
 header {
@@ -12,11 +32,24 @@ header {
     margin: 10px;
 }
 
+header a, header a:hover {
+    color: var(--dark);
+    font-style: initial;
+}
+
+header h1:hover {
+    color: var(--dark);
+    transition-duration: 300ms;
+    letter-spacing: 6px;
+    margin-right: -6px;
+}
+
 header h1, header h2 {
     margin: 2px 0;
 }
 
 header h1 {
+    transition-duration: 300ms;
     letter-spacing: 2px;
     margin-right: -2px;
     text-transform: uppercase;
@@ -28,10 +61,8 @@ nav {
 
 nav a {
     margin: 10px;
-}
-
-a {
-    text-decoration: none;
+    font-style: initial;
+    color: var(--uns-red);
 }
 
 section {
