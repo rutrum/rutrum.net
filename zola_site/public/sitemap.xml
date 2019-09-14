@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/blog/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/blog/first/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/blog/second/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/code/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/code/albumdl/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/code/multiplicationtable/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/code/resumestack/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/research/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/research/autozxy/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/research/guidedawg/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/research/healthyhorizons/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/research/mn/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http%3A//127.0.0.1%3A1111/resume/</loc>
+            
+        </url>
+    
+</urlset>
