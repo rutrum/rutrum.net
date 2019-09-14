@@ -22,8 +22,25 @@ a:hover {
     color: $dark-red;
 }
 
+p {
+    line-height: 1.5em;
+}
+
+@for $i from 1 to 7 {
+    h#{$i} {
+        font-weight: 600;
+    }
+}
+
 header {
     text-align: center;
+    h1 {
+        letter-spacing: .1em;
+        margin-bottom: 0;
+    }
+    h2 {
+        margin-top: 0; 
+    }
     a {
         text-decoration: none;
         font-style: normal;
@@ -31,9 +48,6 @@ header {
         &:visited {
             color: $dark;
         }
-    }
-    h1 {
-        // text-transform: uppercase;
     }
 }
 
@@ -52,8 +66,14 @@ nav {
 }
 
 .content {
+
+    #page-title {
+        font-size: 2em;
+        font-weight: 600;
+        font-style: italic;
+    }
+
     margin: 0 auto;
-    padding: 1em;
     max-width: 600px;
 }
 
@@ -67,4 +87,11 @@ footer {
     
     background-color: $dark;
     color: $light;
+}
+
+#resume {
+    p {
+        margin-top: -.7em;
+        line-height: 1.3em;
+    }
 }
