@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rutrum</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;style.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Rutrum</a></h1>
+        <h2>Dave Purdum</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/code">Code</a></li>
+            <li><a href="/resume">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        
+    <h1 id="page-title">Resume Stack</h1>
+    <p>The resume that you see in the <a href="/resume">resume page</a> and in the <strong>pdf</strong> were both generated from <a href="https://github.com/rutrum/resumestack">a few scripts</a> that makes queries on a sqlite database.  All of the data related to my work history and skills are stored in a local database on my machine.  I wrote two python scripts that generate HTML and LaTeX based on the content in the database.  Lastly I wrote a shell script that redirects the python output to the files stored on this website, and commits those changes to github.  So in one shell script I can keep my website and resume up to date!</p></p>
+
+
+    </div>
+    <!-- <footer>
+        Check out my github!
+    </footer> -->
+<script src="/livereload.js?port=1024&mindelay=10"></script></body>
+</html>
