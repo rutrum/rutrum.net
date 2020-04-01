@@ -9,3 +9,9 @@ And then I start typing my content.
 * yay
 
 Paragraph.  Done.
+
+```cpp
+int main() {
+    return 0;
+}
+```
