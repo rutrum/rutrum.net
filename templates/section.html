@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 
 {% block content %}
-    <h2>{{ section.title }}</h2>
+    <h1>{{ section.title }}</h1>
     {{ section.content | safe }}
     <ul>
         {% for page in section.pages %}
