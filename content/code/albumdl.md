@@ -1,15 +1,17 @@
 +++
 title = "album-dl"
+description = "script to download and tag albums"
+
+[extra]
+github = "https://github.com/rutrum/album-dl"
 +++
 
-I used to go to the library when I was younger to grab the very next Van Halen or Rush CD I could find.  When my music taste got broader, I could not longer lean on the library to appease my need for mp3s.
+I wrote a script that allows me to download albums off youtube and tag them with metadata found on wikipedia.
 
-Online Youtube-to-mp3 converters were often smothered with ads and popups.  When I did find a very clean and legitamate site, it still required a lot of time to manually copy link after link into the website just to wait 30 seconds, click a download button, and copy the next link.  After all that, I had to manually rename and tag each and every mp3 file!  There had to be a better way!
+<!-- more -->
 
-I created my own solution, called album-dl, named after youtube-dl, the app that gave me the idea in the first place (and is central to the functionality of the app.)  The script does the following.
-1. Prompts the user for a youtube playlist url containing the album to download and link to the album's wikipedia page.
-2. Scrapes the wikipedia page for metadata, asking the user to resolve any conflicting findings and confirm what was found.
-3. Downloads the youtube playlist (this is where youtube-dl does the heavy lifting) and converts the video files to mp3 files.
-4. Automatically matches the metadata with each mp3 file, tags each file, and moves the songs to the right place in my music directory.
+I used to go to the library when I was younger to grab every Van Halen and Rush CD I could find.  When my music taste got broader, I could no longer lean on the library to appease my need for mp3s.
 
-Having mp3s of your favorite songs has never been easier!
+Online Youtube-to-mp3 converters were often smothered with ads and popups.  When I did find a very clean and legitamate site, it took a long time to download and then manually rename and tag each and every mp3 file!
+
+So I created album-dl in python.  I leverage the youtube-dl library to download songs and beautiful soup to scrape the wikipedia article for metadata.  I thought about rewriting it in go, but having direct access to the youtube-dl library made it too easy to stick with python.

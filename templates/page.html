@@ -1,6 +1,11 @@
 {% extends "index.html" %}
 
 {% block content %}
-    <h1 id="page-title">{{ page.title }}</h1>
+    <h1 id="page-title">
+        {{ page.title }}
+        {% if page.extra["github"] %}
+            <a href={{page.extra["github"]}}><img src="/GitHub-Mark-32px.png" /></a>
+        {% endif %}
+    </h1>
     {{ page.content | safe }}
 {% endblock content %}
