@@ -5,7 +5,11 @@
     {{ section.content | safe }}
     <ul>
         {% for page in section.pages %}
-            <li><a href={{page.permalink}}>{{page.title}}</a></li>
+            <li>
+                <h2><a href={{page.permalink}}>{{page.title}}</a></h2>
+                {{ page.summary | safe }}
+            </li>
+
         {% endfor %}
     </ul>
 {% endblock content %}

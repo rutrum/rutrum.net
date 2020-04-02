@@ -3,6 +3,8 @@ title = "Resume"
 template = "resume.html"
 +++
 
+You can view my resume below or look at the [pdf](/DavidPurdumResume.pdf) version.
+
 ## Education
 
 ### Butler University
@@ -15,9 +17,9 @@ Parallel Algorithms, Numerical Analysis, Design of Experiments, Linear Algebra, 
 
 ## Skills
 
-C++, Python, Java, Shell, Git, JavaScript, C#, HTML, CSS, Node.js, SQL, LaTeX, Rust
+C++, Python, Java, Shell, Git, JavaScript, C#, Node.js, SQL, LaTeX, Rust
 
-Linux, Open MPI, Virtualbox, Wireshark, Azure, Github, Tensorflow
+Linux, Open MPI, Virtualbox, Azure, Github, Tensorflow
 
 ## Relevant Experience
 

@@ -1,15 +1,22 @@
 $dark: #111;
-$light: #fefefe;
+$grey: #626267;
+$light: #eff9f0;
 
-$red: #f55;
-$dark-red: #c00;
+$red: #c13c42;
+$dark-red: #a00;
+$brown: #896a67;
+$tan: #ddc8c4;
+
+$footer-height: 2em;
 
 body {
+    position: relative;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background: $light;
     color: $dark;
-    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 a {
@@ -34,36 +41,44 @@ p {
 
 header {
     text-align: center;
+    background-color: $dark;
+    background-size: 64px 128px;
+
+    padding: 10px 0;
+    padding-left: calc(100vw - 100%); /* fix scrollbar jumping */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: $light;
+
     h1 {
-        letter-spacing: .1em;
-        margin-bottom: 0;
-    }
-    h2 {
-        margin-top: 0; 
+        letter-spacing: 3px;
+        margin: 0 20px;
     }
     a {
         text-decoration: none;
         font-style: normal;
+    }
+    a:hover {
+        color: $brown;
+    }
+    nav {
+        ul {
+            padding: 0;
+            margin: 0;
 
-        &:visited {
-            color: $dark;
+            display: flex;
+            justify-content: center;
+            li {
+                list-style-type: none;
+                padding: 0 1em;
+            }
         }
     }
 }
 
-nav {
-    ul {
-        padding: 0;
-
-        display: flex;
-        justify-content: center;
-
-        li {
-            list-style-type: none;
-            padding: 0 1em;
-        }
-    }
-}
 
 .content {
 
@@ -71,17 +86,33 @@ nav {
         font-size: 2em;
         font-weight: 600;
         font-style: italic;
+
+        display: flex;
+        justify-content: space-between;
     }
 
-    margin: 0 auto;
+    ul {
+        padding: 0;
+        li {
+            list-style-type: none;
+            p {
+                margin-top: -1em;
+            }
+        }
+    }
+
+    margin: 2em auto;
     max-width: 600px;
+
+    padding-bottom: 5em;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    margin-top: 5em;
 
-    height: 2em;
+    height: $footer-height;
     width: 100%;
     text-align: center;
     
@@ -90,6 +121,7 @@ footer {
 }
 
 #resume {
+    padding-top: 2em;
     p {
         margin-top: -.7em;
         line-height: 1.3em;
