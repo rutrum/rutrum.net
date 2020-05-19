@@ -4,7 +4,7 @@ title = "Home"
 
 # Dave Purdum
 
-I'm a senior at Butler University studying mathematics, computer science, and statistics. I'm interested in finding ways to apply all three of these disciplines through research, writing, and application development.
+I'm a recent graduate of Butler University studying mathematics, computer science, and statistics. I'm interested in finding ways to apply all three of these disciplines through research, writing, and application development.
 
 ## Why Rutrum?
 
