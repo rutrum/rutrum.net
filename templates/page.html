@@ -5,7 +5,7 @@
         <div class="table-of-contents">
             {% set section = get_section(path = page.ancestors[1]) %}
             {% for page in section.pages %}
-                <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
             {% endfor %}
         </div>
         <div class="article">
@@ -19,7 +19,7 @@
             <div class="article-end">
                 {% set next = page.earlier %}
                 {% if next %}
-                <a href="{{ next.permalink }}">Next: {{ next.title }}</a>
+                    <a href="{{ next.permalink | safe }}">Next: {{ next.title }}</a>
                 {% endif %}
             </div>
         </div>
