@@ -134,6 +134,7 @@ header {
 
     .reader {
         display: flex;
+        justify-content: center;
     }
     justify-content: center;
 
@@ -159,7 +160,7 @@ header {
     }
 
     h1 {
-        text-align: left;
+        text-align: center;
     }
 
     ul {

@@ -22,7 +22,6 @@
             <div class="slim">
             {{ section.content | safe }}
 
-            <h1>Projects</h1>
             {% set section = get_section(path = "projects/_index.md") %}
             <ul>
                 {% for page in section.pages %}
