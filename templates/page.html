@@ -1,11 +1,27 @@
 {% extends "index.html" %}
 
 {% block content %}
-    <h1 id="page-title">
-        {{ page.title }}
-        {% if page.extra["github"] %}
-            <a href={{page.extra["github"]}}><img src="/GitHub-Mark-32px.png" /></a>
-        {% endif %}
-    </h1>
-    {{ page.content | safe }}
+    <div class="reader">
+        <div class="table-of-contents">
+            {% set section = get_section(path = page.ancestors[1]) %}
+            {% for page in section.pages %}
+                <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </div>
+        <div class="article">
+            <h1 id="page-title">
+                {{ page.title }}
+                {% if page.extra["github"] %}
+                    <a href="{{ page.extra["github"] }}"><img src="/GitHub-Mark-32px.png"/></a>
+                {% endif %}
+            </h1>
+            {{ page.content | safe }}
+            <div class="article-end">
+                {% set next = page.earlier %}
+                {% if next %}
+                <a href="{{ next.permalink }}">Next: {{ next.title }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
 {% endblock content %}
