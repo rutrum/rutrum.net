@@ -2,82 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://rutrum.github.io/</loc>
+            <loc>http://127.0.0.1:1111/</loc>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/blog/</loc>
+            <loc>http://127.0.0.1:1111/projects/</loc>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/blog/first/</loc>
+            <loc>http://127.0.0.1:1111/projects/albumdl/</loc>
+            
+                <lastmod>2020-03-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/blog/second/</loc>
+            <loc>http://127.0.0.1:1111/projects/autozxy/</loc>
+            
+                <lastmod>2020-01-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/blog/third/</loc>
+            <loc>http://127.0.0.1:1111/projects/convert-case/</loc>
+            
+                <lastmod>2020-05-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/blog/using-zola/</loc>
+            <loc>http://127.0.0.1:1111/projects/guidedawg/</loc>
+            
+                <lastmod>2020-04-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/code/</loc>
+            <loc>http://127.0.0.1:1111/projects/healthyhorizons/</loc>
+            
+                <lastmod>2020-05-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/code/albumdl/</loc>
+            <loc>http://127.0.0.1:1111/projects/mn/</loc>
+            
+                <lastmod>2020-03-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/code/guidedawg/</loc>
+            <loc>http://127.0.0.1:1111/projects/resumestack/</loc>
+            
+                <lastmod>2020-02-01</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/code/healthyhorizons/</loc>
+            <loc>http://127.0.0.1:1111/projects/typesync/</loc>
+            
+                <lastmod>2020-01-21</lastmod>
             
         </url>
     
         <url>
-            <loc>https://rutrum.github.io/code/resumestack/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://rutrum.github.io/code/typesync/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://rutrum.github.io/math/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://rutrum.github.io/math/autozxy/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://rutrum.github.io/math/mn/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://rutrum.github.io/resume/</loc>
+            <loc>http://127.0.0.1:1111/resume/</loc>
             
         </url>
     

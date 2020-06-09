@@ -1,11 +1,12 @@
 $dark: #111;
-$grey: #626267;
-$light: whitesmoke; //#eff9f0;
+$light: whitesmoke; 
+
+$dark-grey: #323236;
+$grey: #727277;
+$light-grey: #d2d2df;
 
 $red: #c13c42;
 $dark-red: #a00;
-$brown: #896a67;
-$tan: #ddc8c4;
 
 $footer-height: 2em;
 
@@ -17,6 +18,20 @@ body {
     background: $light;
     color: $dark;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+code {
+    background-color: $light-grey;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 105%;
+}
+
+pre {
+    border: 2px solid $dark;
+    background-color: $dark-grey ! important;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 a {
@@ -39,19 +54,22 @@ p {
     }
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 header {
     text-align: center;
     background-color: $dark;
-    background-size: 64px 128px;
 
-    padding: 10px 0;
+    padding: 15px 0;
     padding-left: calc(100vw - 100%); /* fix scrollbar jumping */
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    color: $light;
 
     h1 {
         letter-spacing: 3px;
@@ -60,9 +78,10 @@ header {
     a {
         text-decoration: none;
         font-style: normal;
+        color: $red;
     }
     a:hover {
-        color: $brown;
+        color: $grey;
     }
     nav {
         ul {
@@ -79,8 +98,56 @@ header {
     }
 }
 
+.rect {
+    height: 80px;
+    background-color: black;
+    border-radius: 2px;
+    flex: 0 0 110px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.table-of-contents {
+    margin-right: 20px;
+    margin-top: 20px;
+
+    font-size: 90%;
+    flex: 0 0 150px;
+    text-align: right;
+
+    li {
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.slim {
+    max-width: 600px;
+    margin: 2em auto;
+}
 
 .content {
+
+    .reader {
+        display: flex;
+    }
+    justify-content: center;
+
+
+    padding: 1em;
+    padding-bottom: 5em;
+
+    .article {
+        max-width: 550px;
+        .article-end {
+            margin-top: 2em;
+            text-align: right;
+        }
+    }
 
     #page-title {
         font-size: 2em;
@@ -91,20 +158,22 @@ header {
         justify-content: space-between;
     }
 
+    h1 {
+        text-align: left;
+    }
+
     ul {
         padding: 0;
         li {
+            display: flex;
             list-style-type: none;
             p {
                 margin-top: -1em;
+                text-align: justify;
+                text-justify: inter-word;
             }
         }
     }
-
-    margin: 2em auto;
-    max-width: 600px;
-
-    padding-bottom: 5em;
 }
 
 footer {
