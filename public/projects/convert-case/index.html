@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Rutrum</title>
-    <link rel="stylesheet" href="https:&#x2F;&#x2F;rutrum.github.io&#x2F;style.css" />
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;style.css" />
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -23,21 +23,21 @@
         <div class="table-of-contents">
             
             
-                <li><a href="https://rutrum.github.io/projects/convert-case/">Convert Case</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/convert-case/">Convert Case</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/healthyhorizons/">Healthy Horizons Website</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/healthyhorizons/">Healthy Horizons Website</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/guidedawg/">GuideDawg</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/guidedawg/">GuideDawg</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/albumdl/">album-dl</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/albumdl/">album-dl</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/mn/">Calculating M(n)</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/mn/">Calculating M(n)</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/resumestack/">Resume Stack</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/resumestack/">Resume Stack</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/typesync/">TypeSync</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/typesync/">TypeSync</a></li>
             
-                <li><a href="https://rutrum.github.io/projects/autozxy/">Integral Polynomial Rings</a></li>
+                <li><a href="http://127.0.0.1:1111/projects/autozxy/">Integral Polynomial Rings</a></li>
             
         </div>
         <div class="article">
@@ -51,24 +51,24 @@
 <span id="continue-reading"></span>
 <p>I rediscovered emulators and roms and had such a fun time playing them, I wanted a quick way to load one up.  So I decided to just pipe all the rom filenames into a dmenu so I could select a file to run with an emulator.  For example, I would be presented a list like the following.</p>
 <pre style="background-color:#2b303b;">
-<span style="color:#c0c5ce;">$ ls ~/roms
+<code><span style="color:#c0c5ce;">$ ls ~/roms
 donkey_kong_64.z64
 kirby_64_the_crystal_shards.z64
 super_mario_64.z64
-</span></pre>
+</span></code></pre>
 <p>I thought it would be nice if it weren't written in snake case, but instead in title case (delimited by spaces and the first letter of each word is capitalized.)  Thinking this was a simple task I googled linux utilities to do this, and couldn't find anything simple.  Sure, I could use <a href="https://unix.stackexchange.com/questions/196239/convert-underscore-to-pascalcase-ie-uppercamelcase">some complex sed command</a> but it scares me and I refuse to settle with bloatware.</p>
 <p>Thus, <code>convert_case</code> and <code>ccase</code> were born.  Command line utility <code>ccase</code> is written in rust and <code>convert_case</code> is the library behind it.  Both of these are <a href="https://crates.io/crates/convert_case">published to crates.io</a> so anyone can install <code>ccase</code> with a &quot;cargo install&quot; command and <code>convert_case</code> can be included within cargo projects.</p>
 <p><code>ccase</code> will convert from any case to any case (and there are some odd ones I found out) but it let me solve my problem with a sweet one liner.  It trims off the file extension and then passes the name into ccase which parses the name as snake case and then converts it into title case.  Now selecting the right rom is easier and looks nice.  Worth it!</p>
 <pre style="background-color:#2b303b;">
-<span style="color:#c0c5ce;">$ ls ~/roms | cut -d &#39;.&#39; -f 1 | ccase -f snake -t title
+<code><span style="color:#c0c5ce;">$ ls ~/roms | cut -d &#39;.&#39; -f 1 | ccase -f snake -t title
 Donkey Kong 64
 Kirby 64 The Crystal Shards
 Super Mario 64
-</span></pre>
+</span></code></pre>
             <div class="article-end">
                 
                 
-                    <a href="https://rutrum.github.io/projects/healthyhorizons/">Next: Healthy Horizons Website</a>
+                    <a href="http://127.0.0.1:1111/projects/healthyhorizons/">Next: Healthy Horizons Website</a>
                 
             </div>
         </div>
@@ -76,5 +76,5 @@ Super Mario 64
 
     </div>
     <!-- <footer> Check out my github!  </footer> -->
-</body>
+<script src="/livereload.js?port=1024&amp;mindelay=10"></script></body>
 </html>

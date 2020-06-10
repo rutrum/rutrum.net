@@ -20,6 +20,28 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+.button-list {
+    display: flex;
+
+    a {
+        display: block;
+        text-align: center;
+        padding: 15px;
+        margin: 0 20px 30px 20px;
+        border-radius: 7px;
+        //border: 2px solid $red;
+        width: 100%;
+
+        color: $light;
+        background-color: $red;
+
+        &:hover {
+            color: $light;
+            background-color: $dark-red;
+        }
+    }
+}
+
 code {
     background-color: $light-grey;
     padding: 3px;
@@ -127,7 +149,7 @@ header {
 
 .slim {
     max-width: 600px;
-    margin: 2em auto;
+    margin: 0 auto;
 }
 
 .content {
