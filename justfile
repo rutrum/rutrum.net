@@ -7,9 +7,12 @@ serve:
     zola serve
 
 # Builds site and pushes to master on github
-pages: confirm
-    pkill zola
+pages MSG: confirm
+    pkill zola || true
     zola build
+    git add .
+    git commit -m "{{MSG}}"
+    git push
     git subtree push --prefix public origin master
 
 # User must type y or it fails
