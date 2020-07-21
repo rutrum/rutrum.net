@@ -8,4 +8,4 @@ I'm a recent graduate of Butler University studying mathematics, computer scienc
 
 ## Why Rutrum?
 
-Rutrum was the name of my first world of warcraft character (that I made in 2008) and has since been my online alias.  When I mistakenly named my github _rutrum_ instead of _davidpurdum_ many years ago, I felt like there was no turning back.
+Rutrum was the name of my first world of warcraft character (that I made in 2008) and has since been my online alias.  When I mistakenly named my github _rutrum_ instead of _davidpurdum_ many years ago, there was no turning back.
