@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://rutrum.github.io/</loc>
+        <loc>http://127.0.0.1:1111/</loc>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/</loc>
+        <loc>http://127.0.0.1:1111/12_languages/</loc>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/albumdl/</loc>
+        <loc>http://127.0.0.1:1111/12_languages/month-0/</loc>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:1111/projects/</loc>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:1111/projects/albumdl/</loc>
         <lastmod>2020-03-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/autozxy/</loc>
+        <loc>http://127.0.0.1:1111/projects/autozxy/</loc>
         <lastmod>2020-01-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/convert-case/</loc>
+        <loc>http://127.0.0.1:1111/projects/convert-case/</loc>
         <lastmod>2020-05-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/guidedawg/</loc>
+        <loc>http://127.0.0.1:1111/projects/guidedawg/</loc>
         <lastmod>2020-04-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/healthyhorizons/</loc>
+        <loc>http://127.0.0.1:1111/projects/healthyhorizons/</loc>
         <lastmod>2020-05-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/mn/</loc>
+        <loc>http://127.0.0.1:1111/projects/mn/</loc>
         <lastmod>2020-03-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/resumestack/</loc>
+        <loc>http://127.0.0.1:1111/projects/resumestack/</loc>
         <lastmod>2020-02-01</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/projects/typesync/</loc>
+        <loc>http://127.0.0.1:1111/projects/typesync/</loc>
         <lastmod>2020-01-21</lastmod>
     </url>
     <url>
-        <loc>https://rutrum.github.io/resume/</loc>
+        <loc>http://127.0.0.1:1111/resume/</loc>
     </url>
 </urlset>
