@@ -14,4 +14,4 @@ I presented a [poster](http://www.math.grinnell.edu/~paulhusj/ants2018/ppresent.
 
 At Butler University's Undergraduate Research Conference I presented my contribution to the problem and optimizations on the algorithm.  I gave [this presentation](https://slides.com/rutrum/urc2019/#/) in April of 2019.  In addition, I created a [website](https://rutrum.github.io/multiplication-table) that visualizes the problem by generating graphics that represent the algorithm at different values of n.
 
-Most recently, the poster has been [submitted to arXiv](https://arxiv.org/abs/1908.04251).
+Most recently, the paper has been [submitted to arXiv](https://arxiv.org/abs/1908.04251).

@@ -12,6 +12,39 @@ $dark-red: #a00;
 
 $footer-height: 4em;
 
+* {
+    box-sizing: border-box;
+}
+
+.month-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .month-summary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        width: 16%;
+        min-width: 100px;
+
+        img {
+            margin-bottom: 5px;
+        }
+
+        .name {
+            font-weight: 600;
+            font-size: 110%;
+        }
+        
+        .num {
+            font-style: italic;
+            font-size: 90%;
+        }
+    }
+}
+
 .section-description {
     font-size: 1.3em;
 }
@@ -185,7 +218,7 @@ header {
 
 
     padding: 1em;
-    padding-bottom: 5em;
+    padding-bottom: 8em;
 
     .article {
         max-width: 550px;
