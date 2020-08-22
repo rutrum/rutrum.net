@@ -6,31 +6,27 @@ I've been very interested in learning more programming languages.  After diving 
 
 <!-- more -->
 
-In fact, I've been using rust for only a year, and it is now my prefered language, and feel more comfortable and productive in it than in C++ or Java that I learned in college.  The rust book was such a great dive into a language.  It wasn't just a "programming tutorial."  The book served the material to someone with experience programming, which feels hard to find when trying to learn a popular language like Python.
+In fact, I've been using rust for only a year, and it is now my prefered language, and feel more comfortable and productive in it than in C++ or Java that I learned in college.  The rust book was such a great dive into a language.  It wasn't just a "programming tutorial."  The book served the material to someone with experience programming.
 
-My C++ and Java experience started with introduction classes.  C++ was taught at my university as the introduction to programming course and Java was taught as the introduction to object-oriented programming.  That is, the way the languages were presented to me was at the most basic level, a level for computer science majors just getting their feet wet.  As a result, I was never aware of templates, modules, hashmaps, error-handling, or macros until I read the rust book.
+My C++ and Java experience started with introduction classes.  C++ was taught at my university as the introduction to programming course and Java was taught as the introduction to object-oriented programming.  That is, the way the languages were presented to me was at the most basic level, a level for computer science majors just getting their feet wet.  As a result, I was never familiar with templates, modules, hashmaps, enums, or macros until I read the rust book.
 
-When I finally discovered that all these features weren't unique to rust, I started wondering on how much I was missing out on.  I've had a strong distaste for Java and C++ because I never thought they were powerful compared to this newly-created rust language.  I was wrong; they are just as powerful.  I just didn't know any better.  
-
-When I get around to classifying programming languages I've used into categories "proficient" and "familiar" I begin to realize how little I know.
+When I finally discovered that all these features weren't unique to rust, I started wondering on how much I was missing out on.  I've had a strong distaste for Java and C++ because I never thought they were as powerful as rust. Obviously I was wrong; I just didn't know any better.  
 
 ## My Current Expertise
 
-I'm gonna run down every language I've written a single program in, to set a baseline for my programming language knowledge.
+A quick run-down every language I've written a single program in, to set a baseline for my programming language knowledge.
 
-### Javascript / Node.js
+### JavaScript / Node.js
 
-It all started here, when I wanted to add a "rainfall" effect to my tumblr page and had to actually paste in "html code" to get what I wanted.  That's when I learned front end Javascript for the first time.  Years later, I attended a bootcamp that taught me ES6 and react, and I've used that knowledge to develop various websites and APIs written in Node.
+It all started in highschool with HTML and CSS.  JavaScript followed, and I would eventually attend a bootcamp that taught me ES6 and React, and I've used that knowledge to develop various websites and APIs written in Node (such as [Type Sync](@/projects/typesync.md).)
 
 ### C/C++
 
-Technically we used the g++ compiler and named our files `first.cpp` in my introductory programming course.  But we really weren't writing C++, it was more just C with file streams.  We used `cin` and `cout` and I'm pretty sure the rest was just C code.  I would use C/C++ more in my advanced classes.  I learned to allocate arrays and push pointers around.  But in all my computer science classes it was never used for its OOP features.  It was simply a means to write scientific procedures, like writing 4 different algorithms to solve the knapsack problem.
-
-I did take a course on parallel algorithms though, so I am experienced with using the MPI framework in C++.  I would also pick up using the boost library and catch2 during my computation research.
+Technically we used the g++ compiler and named our files `first.cpp` in my introductory programming course.  But we really weren't writing C++, it was more just C with file streams.  We used `cin` and `cout` and I'm pretty sure the rest was just C code.  I would use C/C++ more in my advanced classes.  I learned to allocate arrays and push pointers around.  I would also learn how to use MPI bindings and write parallel programs.  But in all my computer science classes it was never used for its OOP features.  It bothers me that I can't quite distinguish which features I've used are C or C++11 or otherwise.
 
 ### Java
 
-I learned Java to learn object oriented programming.  But all of my projects weren't complex enough to create numerous classes that inherited from one another.  So while I touched on some features like inheritance and polymorphism, I certainly not used to writing this way.  I used java for maybe a year as my go-to, but fell aside as C++ was used for my advanced classes and faster for my computational work.
+I used Java to learn object oriented programming.  But all of my projects weren't complex enough to create numerous classes that inherited from one another.  So while I touched on some features like inheritance and polymorphism, I am certainly not used to writing this way.  I used java for maybe a year as my go-to, but fell aside as C++ was used for my advanced classes and faster for my [computational work](@/projects/mn.md).
 
 ### C#
 
@@ -42,52 +38,38 @@ I used this for my statistics courses.  No formal instruction, just know enough 
 
 ### Python
 
-I picked this up from sitting in on brand new data science course.  It was taught at a low level but it was the first time I was exposed to certain features because in python it is so simply why can't you teach it to novices?  I learned about tuples, dictionaries (hashmaps), slicing, and lists for the first time (that's right, nowhere in any of the CS courses I took were we exposed to variable-length arrays.)  I relied on this heavily for my data science projects at my internship, and has since been my "scripting" language of choice.
+I picked this up from sitting in on brand new data science course.  It was taught at a low level but it was the first time I was exposed to many language features.  I learned about tuples, dictionaries (hashmaps), slicing, and lists.  I relied on this heavily for my data science projects at my internship, and has since been my "scripting" language of choice.
 
 ### Rust
 
-I had heard of rust because I wanted to see if there was a language faster than C/C++ that I could do my computational research in.  I saw a printed copy of "the book" at my library and knew I had to read it.  I read nearly the whole thing (getting lost when it came to reference counting and interior mutability, whatever that is.)  I learned about enums (my favorite language feature), match statements, mutability, memory management (the book described what I should have been thinking about when I was writing C++), iterators, closures, and many other things.  The book really transformed me as a developer.
+I had heard of rust because I wanted to see if there was a language faster than C/C++ that I could do my computational research in.  I came across "the book" and read nearly the whole thing (getting lost when it came to reference counting and interior mutability, whatever that is.)  I learned about enums (my favorite language feature), match statements, mutability, memory management (the book described what I should have been thinking about when I was writing C++), iterators, closures, and many other things.  The book really transformed me as a developer.
 
-### Standard ML
+### Standard ML, Elm, Scala, Prolog
 
-I started a programming languages course on coursera and completed the first module that taught the basics of functional programming using standard ML.  It was my first exposure to functional programming and has made me look for similar features in every language I've used since (that is, higher order functions and iterators).
-
-### Elm, Scala, Prolog
-
-Technically, I've written and ran a file in these languages.  But that's about the extent.  I have never made a functioning program out of Elm or Scala.  I learned prolog to help tutor kids who needed it for a class, and while logic programming is neat, I won't be trying to master it over the next 12 months either.
+Technically, I've written and ran a file in these languages.  Despite doing very little, these gave me exposure to functional programming (and logic programming), which will help tremendously over the next year.
 
 ### Summary
 
-That said, I'd say I'm **proficient** in Rust, Python, and Javascript.  I'm **familiar** with C/C++, C#, Java, and R.  And I wouldn't dare mention the others on my resume.  I'd like to change that.
+That said, I'd say I'm **proficient** in Rust, Python, and JavaScript.  I'm **familiar** with C/C++, C#, Java, and R.  And I wouldn't dare mention the others on my resume.  I'd like to change that.
 
-## My 12 Language Challenge
+## 12 Language Challenge
 
-The current plan is to try and learn one language every month for the next year.  The twelve languages go as follows:
+The current plan is to try and learn one language every month for the next year.  I've selected the following twelve languages.
 
-1. C 
-{{ langicon(lang="c") }}
-2. Java 
-{{ langicon(lang="java") }}
-3. Typescript
-{{ langicon(lang="typescript") }}
-4. Scala
-{{ langicon(lang="scala") }}
-5. Nim
-{{ langicon(lang="nim") }}
-6. Haskell
-{{ langicon(lang="haskell") }}
-7. C++
-{{ langicon(lang="cpp") }}
-8. Julia
-{{ langicon(lang="julia") }}
-9. Elixir
-{{ langicon(lang="elixir") }}
-10. Ruby
-{{ langicon(lang="ruby") }}
-11. Dart
-{{ langicon(lang="dart") }}
-12. Go
-{{ langicon(lang="go") }}
+<div class="month-list">
+{{ monthsummary(lang="c", num="1", name="C") }}
+{{ monthsummary(lang="java", num="2", name="Java") }}
+{{ monthsummary(lang="typescript", num="3", name="TypeScript") }}
+{{ monthsummary(lang="scala", num="4", name="Scala") }}
+{{ monthsummary(lang="nim", num="5", name="Nim") }}
+{{ monthsummary(lang="haskell", num="6", name="Haskell") }}
+{{ monthsummary(lang="cpp", num="7", name="C++") }}
+{{ monthsummary(lang="julia", num="8", name="Julia") }}
+{{ monthsummary(lang="elixir", num="9", name="Elixir") }}
+{{ monthsummary(lang="ruby", num="10", name="Ruby") }}
+{{ monthsummary(lang="dart", num="11", name="Dart") }}
+{{ monthsummary(lang="go", num="12", name="Go") }}
+</div>
 
 I want to relearn C/C++ and Java, now that I'm more experienced and can learn at a far faster rate.  The others?  They either looked fun (Julia), were very popular (Go), or were going to turn my understanding of programming on its head (Haskell).  Of course I'm making sure I learn C before C++, and Java before Scala.  Hopefully that will make learning the ladder languages easier.
 
