@@ -64,18 +64,30 @@ That said, I'd say I'm **proficient** in Rust, Python, and Javascript.  I'm **fa
 
 The current plan is to try and learn one language every month for the next year.  The twelve languages go as follows:
 
-1. C
-1. Java
-1. Typescript
-1. Scala
-1. Nim
-1. Haskell
-1. C++
-1. Julia
-1. Elixir
-1. Ruby
-1. Dart
-1. Go
+1. C 
+{{ langicon(lang="c") }}
+2. Java 
+{{ langicon(lang="java") }}
+3. Typescript
+{{ langicon(lang="typescript") }}
+4. Scala
+{{ langicon(lang="scala") }}
+5. Nim
+{{ langicon(lang="nim") }}
+6. Haskell
+{{ langicon(lang="haskell") }}
+7. C++
+{{ langicon(lang="cpp") }}
+8. Julia
+{{ langicon(lang="julia") }}
+9. Elixir
+{{ langicon(lang="elixir") }}
+10. Ruby
+{{ langicon(lang="ruby") }}
+11. Dart
+{{ langicon(lang="dart") }}
+12. Go
+{{ langicon(lang="go") }}
 
 I want to relearn C/C++ and Java, now that I'm more experienced and can learn at a far faster rate.  The others?  They either looked fun (Julia), were very popular (Go), or were going to turn my understanding of programming on its head (Haskell).  Of course I'm making sure I learn C before C++, and Java before Scala.  Hopefully that will make learning the ladder languages easier.
 
@@ -106,3 +118,4 @@ Everything is web based, so it couldn't hurt to expand from express api's and re
 ## We're off!
 
 Starting on **insert date here** I will begin my deep dive into C, with the goal of completing all the tasks defined above.  This should be a fun experience.  The goals are what they are, _goals_ and not completing them will not be the end of the world.  Let's learn!
+
