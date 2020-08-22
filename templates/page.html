@@ -12,7 +12,9 @@
             <h1 id="page-title">
                 {{ page.title }}
                 {% if page.extra["github"] %}
-                    <a href="{{ page.extra["github"] }}"><img src="/GitHub-Mark-32px.png"/></a>
+                    <a href="{{ page.extra["github"] }}">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
                 {% endif %}
             </h1>
             {{ page.content | safe }}
