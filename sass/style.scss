@@ -1,3 +1,5 @@
+//@import 'font';
+
 $dark: #111;
 $light: whitesmoke; 
 
@@ -25,7 +27,9 @@ body {
     padding: 0;
     background: $light;
     color: $dark;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Noto Sans", sans-serif;
+    font-weight:normal; 
+    font-style:normal;
 }
 
 .button-list {
