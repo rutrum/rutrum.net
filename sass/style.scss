@@ -10,7 +10,7 @@ $light-grey: #d2d2df;
 $red: #c13c42;
 $dark-red: #a00;
 
-$footer-height: 2em;
+$footer-height: 4em;
 
 .section-description {
     font-size: 1.3em;
@@ -93,6 +93,25 @@ p {
     text-justify: inter-word;
 }
 
+footer {
+    a {
+        font-style: normal;
+        color: $red;
+        &:hover {
+            color: $grey;
+        }
+    }
+    ul { 
+        display: flex;
+        justify-content: center;
+        li {
+            list-style-type: none;
+            padding: 0 1em;
+        }
+    } 
+
+}
+
 header {
     text-align: center;
     background-color: $dark;
@@ -113,12 +132,13 @@ header {
         text-decoration: none;
         font-style: normal;
         color: $red;
-    }
-    a:hover {
-        color: $grey;
+        &:hover {
+            color: $grey;
+        }
     }
     nav {
         ul {
+            font-weight: 600;
             padding: 0;
             margin: 0;
 
