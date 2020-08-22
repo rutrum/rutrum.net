@@ -13,20 +13,24 @@
         <h1><a href="/">Rutrum</a></h1>
         <nav>
             <ul>
-                <li><a href="/resume">Resume</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/12_languages">12 Languages</a></li>
             </ul>
         </nav>
     </header>
     <div class="content">
         {% block content %}
             <div class="slim">
+            <div class="button-list">
+                <a href="/david_purdum_resume.pdf">Resume pdf</a>
+                <a href="/david_purdum_cv.pdf">CV pdf</a>
+            </div>
             {{ section.content | safe }}
 
             {% set section = get_section(path = "projects/_index.md") %}
             <ul>
                 {% for page in section.pages %}
                     <li>
-                        <!--<div class="rect"></div>-->
                         <div>
                             <h2><a href={{page.permalink | safe }}>{{page.title}}</a></h2>
                             {{ page.summary | safe }}
