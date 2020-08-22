@@ -1,5 +1,5 @@
 +++
 title = "Projects"
-description = "Personal and professional programming projects."
+description = "My personal programming projects."
 sort_by = "date"
 +++

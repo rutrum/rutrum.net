@@ -27,15 +27,15 @@
             </div>
             {{ section.content | safe }}
 
-            {% set section = get_section(path = "projects/_index.md") %}
             <ul>
-                {% for page in section.pages %}
-                    <li>
-                        <div>
-                            <h2><a href={{page.permalink | safe }}>{{page.title}}</a></h2>
-                            {{ page.summary | safe }}
-                        </div>
-                    </li>
+                {% for subsection in section.subsections %}
+                <li>
+                    <div>
+                    {% set section = get_section(path = subsection) %}
+                    <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
+                    <p>{{ section.description }}</p>
+                    </div>
+                </li>
 
                 {% endfor %}
             </ul>
