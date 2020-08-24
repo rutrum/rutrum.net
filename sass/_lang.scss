@@ -1,0 +1,45 @@
+.lang-title {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+
+    @for $i from 1 to 7 {
+        h#{$i} {
+            padding-left: 20px;
+        }
+    }
+}
+
+.month-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.month-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    width: 16%;
+    min-width: 100px;
+
+    img {
+        margin-bottom: 5px;
+        width: 50px;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 110%;
+    }
+    
+    .num {
+        font-style: italic;
+        font-size: 90%;
+    }
+}
