@@ -1,4 +1,4 @@
-//@import 'font';
+@import 'lang';
 
 $dark: #111;
 $light: whitesmoke; 
@@ -16,43 +16,6 @@ $footer-height: 4em;
     box-sizing: border-box;
 }
 
-.month-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    .month-summary {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 12px;
-        width: 16%;
-        min-width: 100px;
-
-        img {
-            margin-bottom: 5px;
-        }
-
-        .name {
-            font-weight: 600;
-            font-size: 110%;
-        }
-        
-        .num {
-            font-style: italic;
-            font-size: 90%;
-        }
-    }
-}
-
-.section-description {
-    font-size: 1.3em;
-}
-
-.lang-icon {
-    width: 50px;
-}
-
 body {
     position: relative;
     min-height: 100vh;
@@ -60,38 +23,35 @@ body {
     padding: 0;
     background: $light;
     color: $dark;
+
     font-family: "Noto Sans", sans-serif;
-    font-weight:normal; 
-    font-style:normal;
+    font-weight: normal; 
+    font-style: normal;
 }
 
-.button-list {
+#my-name {
+    text-align: center;
+}
+
+.img-p {
     display: flex;
+    flex-direction: row;
 
-    a {
-        display: block;
-        text-align: center;
-        padding: 15px;
-        margin: 0 20px 30px 20px;
-        border-radius: 7px;
-        //border: 2px solid $red;
-        width: 100%;
+    img {
+        width: 60px;
+        height: 60px;
+    }
 
-        color: $light;
-        background-color: $red;
-
-        &:hover {
-            color: $light;
-            background-color: $dark-red;
-        }
+    p {
+        padding-left: 20px;
     }
 }
 
 code {
-    background-color: #00000000;
+    background-color: #e3e3e3;
     padding: 3px;
     border-radius: 2px;
-    font-size: 105%;
+    font-size: 125%;
 }
 
 pre {
@@ -99,6 +59,11 @@ pre {
     background-color: $dark-grey ! important;
     padding: 10px;
     border-radius: 5px;
+
+    code {
+        background-color: #00000000;
+        line-height: 1.4;
+    }
 }
 
 a {
@@ -150,17 +115,17 @@ header {
     background-color: $dark;
 
     padding: 15px 0;
-    padding-left: calc(100vw - 100%); /* fix scrollbar jumping */
+    padding-left: calc(100vw - 100%); // fix scrollbar jumping
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-
     h1 {
         letter-spacing: 3px;
         margin: 0 20px;
     }
+
     a {
         text-decoration: none;
         font-style: normal;
@@ -169,6 +134,7 @@ header {
             color: $grey;
         }
     }
+
     nav {
         ul {
             font-weight: 600;
@@ -208,24 +174,12 @@ header {
     margin: 0 auto;
 }
 
-.content {
+.article {
+    max-width: 600px;
 
-    .reader {
-        display: flex;
-        justify-content: center;
-    }
-    justify-content: center;
-
-
-    padding: 1em;
-    padding-bottom: 8em;
-
-    .article {
-        max-width: 550px;
-        .article-end {
-            margin-top: 2em;
-            text-align: right;
-        }
+    .article-end {
+        margin-top: 2em;
+        text-align: right;
     }
 
     #page-title {
@@ -233,24 +187,33 @@ header {
         font-weight: 600;
         font-style: italic;
 
+        // For when the github logo is used
         display: flex;
         justify-content: space-between;
     }
+}
 
-    h1 {
-        text-align: center;
-    }
+.reader {
+    display: flex;
+    justify-content: center;
+}
 
-    ul {
-        padding: 0;
-        li {
-            display: flex;
-            list-style-type: none;
-            p {
-                margin-top: -1em;
-                text-align: justify;
-                text-justify: inter-word;
-            }
+// Wrapper for all content across site
+.content {
+    padding: 1em;
+    padding-bottom: 8em;
+}
+
+// Lists of articles
+ul {
+    padding: 0;
+    li {
+        display: flex;
+        list-style-type: none;
+        p {
+            margin-top: -1em;
+            text-align: justify;
+            text-justify: inter-word;
         }
     }
 }

@@ -5,7 +5,9 @@
         <div class="table-of-contents">
             {% set section = get_section(path = page.ancestors[1]) %}
             {% for page in section.pages %}
-                <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.permalink | safe }}">
+                    {{ page.title }}
+                </a></li>
             {% endfor %}
         </div>
         <div class="article">
