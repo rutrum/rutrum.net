@@ -74,26 +74,24 @@ The current plan is to try and learn one language every month for the next year.
 
 I want to relearn C/C++ and Java, now that I'm more experienced and can learn at a far faster rate.  The others?  They either looked fun (Julia), were very popular (Go), or were going to turn my understanding of programming on its head (Haskell).  Of course I'm making sure I learn C before C++, and Java before Scala.  Hopefully that will make learning the ladder languages easier.
 
-## Monthly Tasks
+## How to Learn
 
 Every month will end a blog post describing my experience learning the language.  This challenge has made me ask a very difficult question: how to measure if a language has been "learned"?
 
-Along with learning the language, I've created a set of tasks to complete that should prove that I've "learned" in some capacity, as well as keep me on track each month.  Each month I will try to complete the following.
+Originally, I had made a small list of tasks to complete.  They were all some small application that completed a given task.  The more and more I thought about measuring how much I've learned, the more I realized that no task list would encompass the wide range of language features and would eventually get boring by the 12th language.  So I scrapped a task list.
 
-### 1. Write a few prime sieve implementations, and create a test suite around it
+## Plan for Month 1
 
-I love prime sieves, and you can write them a variety of ways to optimize space and to optimize look up times.  I think its a simple task that will allow me to easily write a great variety of tests to verify its accuracy.  This will make sure I try out a testing framework within each language.
+I have a basic plan going into the first month learning C.  I'm going to start with a tutorial or documentation that will outline the basics of C.  Perhaps I'll even follow a video series.  Once I've got an understanding of language features I'd like to experiment with writing a few programs.
 
-With the variety of optimizations, this will also allow me to use a bitset (either from the standard library, a popular library, or write one myself) and also dive into multithreading as well.
+I'd like to try out a testing framework as well as a front-end web framework (will these be achievable in plain C?  Not sure.)  At the very least I can program a command line utility or something else that plays to C's strengths.  
 
-### 2. Contribute to an open source project
+As a final challenge for the month, I am going to contribute to an open source project.  What better graders than open source contributers? This is something I've never done outside some spelling errors, so this will be good experience no matter the language.
 
-What better graders than open source contributers?  I hope I can tackle a bug or two within a project.  This is something I've never done outside some spelling errors, so this will be good experience no matter the language.
+All the code I write will be saved in the [12 languages repository](https://github.com/rutrum/12-languages) on github.  Then at the end of the month I'll write another article on this website, to report what I accomplished and what I liked and disliked about each language.
 
-### 3. Write Conway's game of life using a front end web framework
-
-Everything is web based, so it couldn't hurt to expand from express api's and react front-ends to something more "exotic".  These frameworks typically have their own set of design patterns and expectations, so being able to write in these frameworks should show that I've got the basics of the language down.  I'm also hoping that this will expose me to asynchronous programming as well, a weak point in my skillset.
+This is a pretty loose plan of attack. Every time I constructed something more rigorous I realized that, even after the first month, my goals will most likely change.  I'm allowing this challenge to be very flexible to accomidate for my interests, the language, and my overall time put into the project.
 
 ## We're off!
 
-Starting on September 1, 2020 I will begin my deep dive into C.  All of the code I write for this 12 month challenge will be in the 12 languages repository on github.  Let's learn!
+Starting on September 1, 2020 I will begin my deep dive into C.  Let's learn!
