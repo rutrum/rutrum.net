@@ -1,5 +1,6 @@
 +++
 title = "Month 0"
+date = 2020-09-01
 +++
 
 I've been very interested in learning more programming languages.  After diving head first into Rust a year ago, and having a blast reading [the book](https://doc.rust-lang.org/book/) I can't help but wonder if I'll have a similar experience with other languages.  Why not challenge myself to learn 12 more?
