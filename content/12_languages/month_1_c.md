@@ -1,6 +1,9 @@
 +++
 title = "C"
 date = 2020-10-01
+
+[extra]
+github = "https://github.com/rutrum/12-languages/tree/master/c"
 +++
 
 C has been around so long that it's developers have had time to create an enormous pallete of paradigms and style conventions, just in case you weren't happy with the one you were writing in.
