@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="reader">
+        <div class="article">
+            <h1 id="page-title">
+                {{ page.title }}
+                {% if page.extra["github"] %}
+                    <a href="{{ page.extra["github"] }}">
+                        <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+                    </a>
+                {% endif %}
+            </h1>
+            {{ page.content | safe }}
+        </div>
+    </div>
+{% endblock content %}
