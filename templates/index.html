@@ -24,16 +24,17 @@
             <div class="slim">
             {{ section.content | safe }}
 
-            <ul>
+            <ul class="simple-list">
                 {% for subsection in section.subsections %}
-                <li>
-                    <div>
                     {% set section = get_section(path = subsection) %}
-                    <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
-                    <p>{{ section.description }}</p>
-                    </div>
-                </li>
-
+                    {% if section.title != "Blog" %}
+                    <li>
+                        <div>
+                            <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
+                            <p>{{ section.description }}</p>
+                        </div>
+                    </li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
