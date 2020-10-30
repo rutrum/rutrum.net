@@ -15,9 +15,9 @@ The carnivore diet involves eating exclusively meat.  You can eat dairy to some 
 
 I'll be eating a variety of meats, like pork, beef, chicken, fish, turkey, and eggs.  I can cook using butter or some kind of animal fat (bacon grease, for example.)  I can also use salt and pepper, but that's it.  No sauces, no other seasonings.  It's all about fat.
 
-From [what I've read](https://carnivorestyle.com/carnivore-diet/) it seems like diary is a soft spot.  It's not "true carnivorism" but it contains very few sugars and it helps people transition into the diet.  I will be leveraging dairy for sure.  It also let's you use butter, so I don't dry roast everything.  
+From [what I've read](https://carnivorestyle.com/carnivore-diet/) it seems like dairy is a soft spot.  It's not "true carnivorism" but it contains very few sugars and it helps people transition into the diet.  I will be leveraging dairy for sure.  It also let's you use butter, so I don't dry roast everything.  
 
-The article describes "levels" of the carnivore diet which I am going to attempt as well.  From **today until November 11th** I'll allow myself any kind of meat, and allow dairy but ensure I'm not consuming too many sugars (milk can do that.)  The article calls this "Level 1". For the **final two weeks** I will have no diary with the exception of butter.  It's just meat for those two weeks, or "Level 2".
+The article describes "levels" of the carnivore diet which I am going to attempt as well.  From **today until November 11th** I'll allow myself any kind of meat, and allow dairy but ensure I'm not consuming too many sugars (milk can do that.)  The article calls this "Level 1". For the **final two weeks** I will have no dairy with the exception of butter.  It's just meat for those two weeks, or "Level 2".
 
 The final level suggests only red meat, but that's beyond the scope of this experiment.
 
