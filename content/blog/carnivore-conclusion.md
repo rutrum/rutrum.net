@@ -181,21 +181,53 @@ While this was a difficult task, it really made me realize how much sugar we eat
 
 ## The Results
 
+It's important to remember that I took all these measurements by myself.  I want this diet to work, so it wouldn't be unlikely for me to have put some bias on the measurements I took this morning.  This is a very imprecise way to measure body differences.  Keep this in mind.
+
 | | Start<br>October 24th | End<br>November 26th | Difference |
 | ---: | --- | --- | --- |
 | Height | 5 ft. 8 in. | 5 ft. 8 in. | 0 in. |
-| Weight | 183.6 lbs. | | |
-| Body Fat Percentage | 15.5% | | |
-| Hip Circumference | 34 in. | | |
-| Waist Circumference | 37.5 in. | | |
-| Thigh Circumference | 22.5 in. | | |
-| Chest Circumference | 40 in. | | |
+| Weight | 183.6 lbs. | 176.5 lbs. | -7.2 lbs. |
+| Body Fat Percentage | 15.5% | 14.6% | -0.9% |
+| Hip Circumference | 34.0 in. | 33.5 in. | -0.5 in. |
+| Waist Circumference | 37.5 in. | 35.5 in. | -2.0 in. |
+| Thigh Circumference | 22.5 in. | 22.0 in. | -0.5 in. |
+| Chest Circumference | 40.0 in. | 40.0 in. | -0.0 in. |
+
+I couldn't be happier with the result.  I've gone through diets before that had me lose 10 pounds in a month.  What makes this 7 pound loss so substantial to me is that I lost 7 pounds on top of a nearly record low weight already.  In all of college I got as low as 182 pounds, and I could never push it further (excluding that 5 day fast of course.)  This is a rewarding result for sure.  I don't have nearly the muscle mass I used to, but this is a good first step of shedding some fat before hitting the weights a bit harder.
+
+The other measurements are expected.  I'm very pleased to see that my gut shrank by a couple inches.  My chest hadn't, but I assume any fat loss was offset by chest exercises.  Better than these numbers however, are comparison of pictures I took before and after the diet.  I've come to appreciate how my body changed more so that the numbers.  Of course, view these if you really want.  I'll discuss the results regardless.
+
+{{ spoiler(msg="Yes, please show me pictures of your naked chest.") }}
+
+The start of the diet is on the left and today's results are on the right.
+
+{{ slideshow(images=[
+    "/carnivore/body_pics/front_adjacent.jpg",
+    "/carnivore/body_pics/back_adjacent.jpg",
+    "/carnivore/body_pics/side_adjacent.jpg",
+]) }}
+
+I've also overlayed the images on top of one another to really compare profiles. You can assume that the skinnier version is the one I took this morning.
+
+{{ slideshow(images=[
+    "/carnivore/body_pics/front_overlay.jpg",
+    "/carnivore/body_pics/back_overlay.jpg",
+    "/carnivore/body_pics/side_overlay.jpg",
+]) }}
+
+{{ spoiler(end=true) }}
+
+The images really align with the results.  It didn't just fudge the numbers or drop exclusively water weight.  These images reveal to me that my body actually did change for the better.  I'm very happy with the results.  I look forward to seeing how much more fat I can drop and muscle I can gain.
+
+These images are the most valuable measurement I could take.  Without them, I could only wonder if the numbers on the scales were actually proving there was change or if I just got lucky.  I've learned that my weight fluctuates sometimes as much as 10 pounds in a day after eating a big meal, hitting a really hard workout, or just drinking a lot of water.  
+
+I really didn't expect to get these results.  I didn't think I had made so much improvement in just one month.
 
 ## My Thoughts on Carnivore
 
 I've read many, many stories online about people becoming healthier in other ways.  They sleep better, they feel more focused, and they don't get tired anymore after lunch.  Some even report depression disappearing and other seemingly unbelievable things.  Do I think your diet can fix many if not all of these ailments?  Yes.  Do I think that _the carnivore diet_ will fix these problems?  Perhaps it can, but I think many diets can fix a lot of these problems too.  Going on a keto, vegan, fasting, or another diet eliminates a lot of bad things altogether.  Kicking the dependence of caffeine, cutting out energy drinks, or just switching to eggs for breakfast instead of PopTarts can achieve the same I imagine, but that's just speculation.
 
-I didn't have many problems in the way of insomnia, depression, or inflamation.  I was already living a healthy life before carnivore, so I'm not surprised I haven't felt much different.  That said, I absolutely loved being on the diet.  The food tasted good and was very filling.  I knew the food was good quality, not processed or cooked with ingredients I didn't know the names of.  Paying twice as much on groceries is worth knowing that I feel good and I feel healthy.  I highly recommend the carnivore diet.  It's like breathing fresh air.
+I didn't have many problems in the way of insomnia, depression, or inflammation.  I was already living a healthy life before carnivore, so I'm not surprised I haven't felt much different.  That said, I absolutely loved being on the diet.  The food tasted good and was very filling.  I knew the food was good quality, not processed or cooked with ingredients I didn't know the names of.  Paying twice as much on groceries is worth knowing that I feel good and I feel healthy.  I highly recommend the carnivore diet.  It's like breathing fresh air.
 
 ## Moving Forward
 

@@ -3,6 +3,15 @@
 @import 'slideshow';
 
 .spoiler {
+    .selected {
+        transform: rotate(90deg);
+        transition-duration: .2s;
+    }
+
+    .arrow {
+        padding: 0 .5em;
+    }
+
     .spoils {
         display: none;
     }
