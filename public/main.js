@@ -8,12 +8,15 @@ for (let i = 0; i < spoilers.length; i++) {
     let spoiler = spoilers[i]
     let clickable = spoiler.querySelector("p")
     let spoils = spoiler.querySelector(".spoils")
+    let arrow = spoiler.querySelector(".arrow")
     clickable.addEventListener("click", () => {
         let d = spoils.style.display
         if (d == "initial") {
             spoils.style.display = "none"
+            arrow.classList.remove("selected")
         } else {
             spoils.style.display = "initial"
+            arrow.classList.add("selected")
         }
     })
 }
