@@ -1,0 +1,7 @@
+<div class="slideshow">
+<div class="next"><i class="fa fa-arrow-right"></i></div>
+<div class="prev"><i class="fa fa-arrow-left"></i></div>
+{% for image in images %}
+<img src="{{ image }}" data-num="{{loop.index0}}"/>
+{% endfor %}
+</div>
