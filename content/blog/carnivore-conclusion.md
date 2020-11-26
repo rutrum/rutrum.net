@@ -3,9 +3,9 @@ title = "Carnivore Diet Conclusion"
 template = "single_page.html"
 +++
 
-Happy Thanksgiving.  Today marks the end of my 33 day long carnivore diet.  It was as exciting as I thought it would be. I will discuss how I faired, the difficulties I faced, and of course, analyse some numbers to see if there's some truth behind this "diet."  If you haven't already read the [first article](/blog/carnivore) I'll describe briefly the rules.
+Happy Thanksgiving.  Today marks the end of my 33 day long carnivore diet.  It was as exciting as I thought it would be. I will discuss how fun cooking was, the difficulties I faced at the grocery store, and of course, analyse some numbers to see if there's some truth behind this "diet."  If you haven't already read the [first article](/blog/carnivore) I'll describe briefly the rules.
 
-* From October 24th until the morning of November 26th I ate under the constraints of the diet.
+* From October 24th until the morning of November 26th (that's today!) I ate under the constraints of the diet.
 * Until November 12th, I could eat any kind of meat, so long as it was minimally processed and contained no sugar.  I could also eat dairy.
 * Starting November 12th, I cut out the dairy.
 
@@ -17,7 +17,7 @@ It's a simple diet.  I'll share what happened.
 
 The first few days I was enjoying lots of eggs, bacon, sausage, steak, and cheese.  It was not a difficult transition, considering my diet beforehand consisted of all these foods plus some vegetables, peanut butter, and the occasional apple or orange.  Despite eating a lot of food for the first week, I immediately started dropping weight.  It was about 4 pounds of what I think was just water weight within the first 3 or 4 days.  I kept the weight off, and never experienced drastic weight loss like this again.
 
-The diet also expanded my pallet.  Trips to the store were brief, limited to the beef, pork, and egg sections.  Knowing I would have small variety, I tried new things like pork chops and ribs that I had never bought fresh before.  I also tried whole milk, a switch from the almond milk I had been drinking for months prior.  I cut out oil too, only using butter and bacon fat.  More important than oil, I cut out all the sauces that I used to pour over my meat and vegetables.
+The diet also expanded my pallet.  Trips to the store were brief, limited to the beef, pork, and dairy sections.  Knowing I would have small variety, I tried new things like pork chops and ribs that I had never bought fresh before.  I also tried whole milk, a switch from the almond milk I had been drinking for months prior.  I cut out oil too, only using butter and bacon fat.  More important than oil, I cut out all the sauces that I used to pour over my meat and vegetables.
 
 Heres a picture of every grocery trip I made this month.  This will give you a good idea of what I ate in less pictures than my instagram.  More about how much all this cost me later.
 
@@ -33,17 +33,17 @@ Heres a picture of every grocery trip I made this month.  This will give you a g
 
 ## The Carnivore Subreddit
 
-After my first trip to the store I [posted my first grocery run](https://www.reddit.com/r/carnivore/comments/jhhbvb/just_started_the_diet_today_and_went_to_the/) to the carnivore subreddit.  I asked how my grocery haul looked, and if I was on the right track.  I got a lot of useful responses.  The biggest consensus though was to drop the chicken breasts.  They said they lacked fat and weren't very flavorful, and that I should really lean towards more fatty red meat.  I recall someone on the subreddit comparing eating chicken breast to eating a salad, because it was so empty.
+On the first day of the diet I [posted my first grocery run](https://www.reddit.com/r/carnivore/comments/jhhbvb/just_started_the_diet_today_and_went_to_the/) to the carnivore subreddit.  I asked how my grocery haul looked, and if I was on the right track.  I got a lot of useful responses.  The biggest consensus though was to drop the chicken breasts.  They said they lacked fat and weren't very flavorful, and that I should really lean towards more fatty red meat.  I recall someone on the subreddit comparing eating chicken breast to eating a salad, because it was so empty.
 
-I hadn't quite fully understood the "point" of the diet.  I realized that we were replacing sugar with fat, but I didn't realize that protein has little to do with "staying alive" when there isn't fat in the picture.  This was a good reminder that fat really is king, and eating too lean of meats would lead to [rabbit starvation](https://en.wikipedia.org/wiki/Protein_poisoning).  Man, I love eating on the edge of death, really gets the adrenaline flowing.  Just as exciting as fasting for days at a time and remembering that if you hadn't been drinking water, you'd be dead.
+I hadn't quite fully understood the "point" of the diet.  I realized that we were replacing sugar with fat, but I didn't realize that protein has little to do with "staying alive" when there isn't fat in the picture.  This was a good reminder that fat really is king. Eating too lean of meats would lead to [rabbit starvation](https://en.wikipedia.org/wiki/Protein_poisoning).  Man, I love eating on the edge of death, it really gets the adrenaline flowing.  Just as exciting as fasting for days at a time and remembering that if you hadn't been drinking water, you'd be dead.
 
 The post not only steered me in the right direction, but it also revealed how everyone takes the diet in their own direction.  Some like chicken breast, while others allow all kinds of seasoning;  some people eat organ meat, and others like milk; some drink egg yolks raw, and some people just eat exclusively steaks or ground beef.  It was nice to hear advice and a warm welcome from an audience of people engaging in the diet all sorts of ways.
 
 ## Cooking
 
-Cooking in this diet couldn't get much easier.  Raw food goes in a pan, sits for 20 minutes and it's done.  Honestly, many of the foods (ground beef, steak, salmon, pork chops, eggs, sausage, bacon) was just a matter waiting, with the occasional flip or scrape.  When I was eating cheese, I cut up the block into slices ahead of time and served those alongside the meat.
+Cooking in this diet couldn't get much easier.  Raw food goes in a pan, sits for 20 minutes, and it's done.  Honestly, many of the foods (ground beef, steak, salmon, pork chops, eggs, sausage, bacon) was just a matter waiting, with the occasional flip or scrape.  When I was eating cheese, I cut up the block into slices ahead of time and served those alongside the meat.
 
-The only difficult part was working with a lot of leftover grease and fat.  Everything in the kitchen was always so oily and gross.  The food often crackled and popped in the pan and spread the grease across the stove-top, counter, the floor, and managed to burn myself a few times too.  It was a constant uphill battle to keep my kitchen clean.  Considering the amount of fat involved, I typically rested my food on paper towels to get any running grease off the meat.  That kept my meat savory and not oily or greasy.
+The only difficult part was working with a lot of leftover grease and fat.  Everything in the kitchen was always so oily and gross.  The food often crackled and popped in the pan and spread the grease across the stove-top, counter, and the floor, and I managed to burn myself a few times too.  It was a constant uphill battle to keep my kitchen clean.  Considering the amount of fat involved, I typically rested my food on paper towels to get any running grease off the meat.  That kept my meat savory and not oily or greasy.
 
 When I finally got rid of dairy over 2 weeks in, I noticed I started "snacking" less and having fewer meals.  I don't think I really benefited too much from the dairy, although it made certain meals taste better (like when served on ground beef.)  When I got hungry cheese was my only "just grab something" food.  I might have snacked less after this, but considering how quickly I could prepare meals, I typically just ate my dinner early instead.
 
@@ -53,7 +53,7 @@ I was warned that as I transitioned from using carbs as an energy source to fat 
 
 {{ spoiler(msg="Click here for a full calendar and discussion.") }}
 
-Here a calendar marking every bowel movement I made for the whole diet.  Each bold number represents a single trip to the bathroom, where it's appearance was measured based on the [bristol stool chart](https://www.webmd.com/digestive-disorders/poop-chart-bristol-stool-scale).  That is, 1 or 2 is too dry, 3 to 4 is just right, and 5 to 7 is too wet.
+Here is a calendar marking every bowel movement I made for the whole diet.  Each bold number represents a single trip to the bathroom, where it's appearance was measured based on the [bristol stool chart](https://www.webmd.com/digestive-disorders/poop-chart-bristol-stool-scale).  That is, 1 or 2 is too dry, 3 to 4 is just right, and 5 to 7 is too wet.
 
 <div class="bm-cal">
 
@@ -70,7 +70,7 @@ Here a calendar marking every bowel movement I made for the whole diet.  Each bo
 
 I had been warned of diarrhea for two weeks straight, but that was far from what happened.  To me, this calendar seems pretty normal.  To many people who go at least once a day this might look concerning, but going every couple days isn't too different from other diets I've been on.  I had some mild constipation at the beginning, but that was it.
 
-You might wonder what happened on November 18th, where I had the three _worst_ movements of the whole diet all in the same day, just hours apart.  Well, I believe this was the result of eating really, really cheap meat.  I believe the day prior I had eaten nearly a pound of a steak cut that cost me just $3.28.  Which, if you aren't familiar, is a really low quality cut of meat.  It was definitely not meant for eating like one you'd order at a steakhouse.  I've learned my lesson about steaks, that's for sure, but I have much to learn still.
+You might wonder what happened on November 18th, where I had the three _worst_ movements of the whole diet all in the same day, just hours apart.  Well, I believe this was the result of eating really, really cheap meat.  I believe the day prior I had eaten nearly a pound of steak that cost me just $3.28.  Which, if you aren't familiar, is a really low quality cut of meat.  It was definitely not meant for eating like one you'd order at a steakhouse.  I've learned my lesson about steaks, that's for sure, but I have much to learn still.
 
 {{ spoiler(end=true) }}
 
@@ -78,11 +78,11 @@ You might wonder what happened on November 18th, where I had the three _worst_ m
 
 It's important to discuss food _and excercise_ to give the final numbers context.
 
-Before starting this challenge, I was eating meat and vegetables, the occasional fruit, nuts, and peanut butter.  I was already "low carb" by avoiding pastas, grains, and breads in every way I could.  I didn't work out very much though.  I would occasionally go outside and jump rope, and had recently picked up martial arts classes again.  These were short 45 minutes classes that I continued twice a week throughout the whole diet.  Halfway through the diet I picked up a gym membership and spent another hour 3 times a week lifting and walking on a treadmill. 
+Before starting this challenge, I was eating meat and vegetables with the occasional fruit, nuts, and peanut butter.  I was already "low carb" by avoiding pastas, grains, and breads in every way I could.  I didn't work out very much though.  I would occasionally go outside and jump rope, and had recently picked up martial arts classes again.  These were short 45 minutes classes that I continued twice a week throughout the whole diet.  Halfway through the diet I picked up a gym membership and spent another hour 3 times a week lifting and walking on a treadmill. 
 
-Otherwise my job leaves me glued to my desk chair, where I spend most of my time in and out of work.  Ten-thousand steps a day?  Forget about it.  Going to the gym and martial arts is the only source activity I get.  Contrast this against the busiest of my college years: I was going to the gym once, if not twice, a day while moving around campus like a busy bee between classes, tutoring, the gym, and back the apartment a couple times so I could eat.  If I weren't in a work-from-home environment I'd most likely be walking to work.
+Otherwise my job leaves me glued to my desk chair at home, where I spend most of my time in and out of work.  Ten-thousand steps a day?  Forget about it.  Going to the gym and martial arts is the only source of activity I get.  Contrast this against the busiest of my college years: I was going to the gym once, if not twice, a day while moving around campus like a busy bee between classes, tutoring, the gym, and back the apartment a couple times so I could eat.  If I weren't in a work-from-home environment I'd most likely be walking to work.
 
-Considering how the world has shut down for months it kept me from working out often, doing yoga in my bedroom for months was all I did.  It's hard to say if eating carnivore made my workouts any better, simply because there isn't much to compare it against.  That investigation will be for another day, I suppose.
+Considering how the world has shut down for months, it kept me from working out often. Doing yoga in my bedroom for months was all I could do.  It's hard to say if eating carnivore made my workouts any better, simply because there isn't much to compare it against.  That investigation will be for another day, I suppose.
 
 ## Grocery Costs
 
@@ -107,9 +107,9 @@ Also, it is important to note we are using what I _bought_ to estimate what I _a
 
 </div>
 
-I wasn't atypical for me to spend about a hundred dollars at the store before the diet, because of all the fresh vegetables.  But what really made this so expensive was the frequency I had to pick up some fresh cuts of meat.  I made the mistake of not timing out the expiration date of the food until I got home.  It was then I'd find out I bought 3 cuts of steak and pork chops that all had to be eaten by the next night.  This made me eat more, and purchase more frequently.  I should have had a smaller cart at the store.
+I wasn't atypical for me to spend about a hundred dollars at the store before the diet, because of all the fresh vegetables.  But what really made this so expensive was the frequency I had to pick up some fresh cuts of meat.  I made the mistake of not timing out the expiration date of the food until I got home.  It was then I'd find out I bought 3 cuts of steak and pork chops that all had to be eaten by the next night.  This made me eat more and purchase more frequently.  I should have had a smaller cart at the store.
 
-I'd say this was about twice the cost of what I would typically spend.  I could have done much better by buying foods that are marked off because their due date was very soon, or skipping grocery stores altogether and getting bulk meat from a butcher.  I didn't think too much about cost when pursuing the diet.  I wanted to make sure nothing kept me from just enjoying the food I was eating, considering the extreme lack of variety (another problem with grocery stores).
+I'd say this was about twice the cost of what I would typically spend.  I could have done much better by buying foods that are marked off because their due date was very soon, or skipping grocery stores altogether and getting meat in bulk from a butcher.  I didn't think too much about cost when pursuing the diet.  I wanted to make sure nothing kept me from just enjoying the food I was eating, considering the extreme lack of variety (another problem with grocery stores.)
 
 ### How many eggs did I eat?
 
@@ -159,7 +159,7 @@ These numbers aren't necessarily representative of how much I ate of each group,
 
 These numbers should not be taken at face value (considering I bought 12 dozen eggs and only count for 5 "items" here.)  It is hard to aggregate a single pack of bacon against a whole rack of ribs considering you don't know the weight of the ribs.  
 
-What I think this data does express though is along the lines of variety.  Pork chops, ribs, bacon, and sausage were common purchases along with a variety of steak cuts and ground beef.  I bought a lot of salmon and some shrimp too.  When I walked through the store, the largest sections are pork and beef, which were full of fat and were in line with the diet.  The chicken section however, didn't appeal to me as much and I stuck to eggs for the most part.
+What I think this data does express though is along the lines of variety.  Pork chops, ribs, bacon, and sausage were common purchases along with a variety of steak cuts and ground beef.  I bought a lot of salmon and some shrimp too.  When I walked through the store, the largest sections are pork and beef, which were full of fat and were in line with the diet.  The chicken section however, didn't appeal to me as much, and I stuck to eggs for the most part.
 
 If you are wondering what "fat" means, its the butter, ghee, beef tallow, and duck fat that I bought to cook all my food in (when bacon fat wasn't available.)  Dairy consisted of all the cheeses and the half gallon of milk I bought on day 1.
 
@@ -171,17 +171,17 @@ All the receipt data is stored in a [sqlite database](/carnivore/carnivore_groce
 
 ## Challenges
 
-One of the unforeseen challenges of strictly sticking to this diet was social eating.  There were a few social events I attended (Halloween and an early Thanksgiving) where I was limited to ground meat at a taco bar and turkey at a thanksgiving buffet.  Fortunately those in attendance understood, but it was still a shame I wasn't able to try everything the chefs had prepared.  Likewise, I've pushed off many dates and social events too.  Unfortunately, this diet makes eating out nearly impossible.  I was able to eat beef brisket from a BBQ restaurant exactly once and an omelette from a breakfast diner, but even then, I can't guarantee that these were made without any sort of special seasoning or sugar.  This diet really requires you to develop your skills as a home cook.  
+One of the unforeseen challenges of sticking to this diet was social eating.  There were a few social events I attended (Halloween and an early Thanksgiving) where I was limited to ground meat at a taco bar and turkey at a thanksgiving buffet.  Fortunately those in attendance understood, but it was still a shame I wasn't able to try everything the chefs had prepared.  Likewise, I've pushed off many dates and social events too.  Unfortunately, this diet makes eating out nearly impossible.  I was able to eat beef brisket from a BBQ restaurant and an omelette from a breakfast diner.  However, I can't guarantee that these were made without any sort of special seasoning or sugar.  This diet really requires you to develop your skills as a home cook.  
 
 I also milked the whole "no need to count calories" and "eat as much as you want" a bit too much.  I did this diet mostly for weight loss, not for the other benefits people claim like reducing inflammation or curing autoimmune diseases.  There's still good evidence and logic behind "calories in calories out" so I think that if I wanted to continue to lose weight I'd really need to balance my intake against my exercise.  Many people say they end up eating less just because the fat is so satiating.  Unfortunately, I didn't do my best to stop when I was full and cook smaller meals, despite staying _very full_ this past month.
 
-Perhaps the most challenging part of the diet was finding the right foods to eat.  If you haven't picked up on it so far, I haven't eaten any sort of hot dogs or deli meats.  The closest I got was a single brand of breakfast sausage.  Smoked sausages though?  Not a chance.  All of these wrapped sausages and deli meats are all made with or cured in sugar.  Unfortunately, even if something says "0g Sugar" that doesn't mean it isn't still made with sugar.  Just read the ingredients list.  If it says sugar, corn syrup, dextrose, or any other of the many words for sugar, I didn't buy it.  Even beyond the ingredients list I had to look for fine print to see what the meats were cured with.  I found exactly one pack of bacon that really had zero sugar in it: Meijer-branded low sodium bacon.
+Perhaps the most challenging part of the diet was finding the right foods to eat.  If you haven't picked up on it so far, I haven't eaten any sort of hot dogs or deli meats.  The closest I got was a single brand of breakfast sausage.  Smoked sausages though?  Not a chance.  All of these wrapped sausages and deli meats are all made with or cured in sugar.  Unfortunately, even if something says "0g Sugar" that doesn't mean it isn't still made with sugar.  Just read the ingredients list.  If it says sugar, corn syrup, dextrose, or any other of the many words for sugar, I didn't buy it.  Even beyond the ingredients list I had to look for fine print to see what the meats were cured in.  I found exactly one pack of bacon that really had zero sugar in it: Meijer-branded low sodium bacon.
 
-While this was a difficult task, it really made me realize how much sugar we eat on a regular basis unintentionally.  Even the most basic foods all have sugar put in it.  I challenge everyone reading this to try to go to store and not buy anything that doesn't include sugar added to it.  Not necessarily carbs or natural sugars from fruits or vegetables, just look at the ingredients and see if your sauce, or your favorite diet cereal, or even your brand of peanut butter has sugar in it.  I bet they do.  Carnivores lovingly call all these kind of foods SAD (or the Standard American Diet).  Sugar or otherwise, this diet has made me realize just how processed our food is, and avoiding it is difficult.
+While this was a difficult task, it really made me realize how much sugar we eat on a regular basis unintentionally.  Even the most basic foods all have sugar put in it.  I challenge everyone reading this to try to go to store and not buy anything that doesn't include sugar added to it.  I don't mean carbs or natural sugars from fruits or vegetables, either. Just look at the ingredients and see if your sauce, or your favorite diet cereal, or even your brand of peanut butter has sugar in it.  I bet they do.  Carnivores lovingly call all these kind of foods SAD (or the Standard American Diet.)  Sugar or otherwise, this diet has made me realize just how processed our food is, and avoiding it is difficult.
 
 ## The Results
 
-It's important to remember that I took all these measurements by myself.  I want this diet to work, so it wouldn't be unlikely for me to have put some bias on the measurements I took this morning.  This is a very imprecise way to measure body differences.  Keep this in mind.
+It's important to remember that I took all these measurements by myself.  I want this diet to work, so it wouldn't be unlikely for me to have put some unintentional bias on the measurements I took this morning.  This is a very imprecise way to measure body differences.  Keep this in mind.
 
 | | Start<br>October 24th | End<br>November 26th | Difference |
 | ---: | --- | --- | --- |
@@ -231,6 +231,6 @@ I didn't have many problems in the way of insomnia, depression, or inflammation.
 
 ## Moving Forward
 
-With a large and vast Thanksgiving meal just hours away, it's hard for me not to want to eat everything under the sun.  When I come down the high of variety I'll to a focused diet just like the carnivore diet.  I'd like to continue to prioritize meat as the center of my meals, but I wouldn't mind reintroducing some vegetables and spices.  I do enjoy challenging myself though, so after the holidays we'll see if I don't try something else exciting too.  Maybe experiment with fasting more, or even try what other carnivores do, like eating exclusively ground beef or steaks.  That might be fun to try for a few weeks.  Or hell, why not try veganism!
+With a large and vast Thanksgiving meal just hours away, it's hard for me not to want to eat everything under the sun.  When I come down from the high of variety I'll stick to a focused diet just like the carnivore diet.  I'd like to continue to prioritize meat as the center of my meals, but I wouldn't mind reintroducing some vegetables and spices.  I do enjoy challenging myself though, so after the holidays we'll see if I don't try something else exciting too.  I might experiment with fasting more, or even try what other carnivores do, like eating exclusively ground beef or steaks.  That might be fun to try for a few weeks.  Or hell, why not try veganism!
 
 Happy Thanksgiving!
