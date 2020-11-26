@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100vw;
+}
+
 body {
     position: relative;
     min-height: 100vh;
@@ -98,6 +102,8 @@ footer {
     ul { 
         display: flex;
         justify-content: center;
+
+        padding-left: 0;
         li {
             list-style-type: none;
             padding: 0 1em;
@@ -116,6 +122,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 600px) {
+        //flex-direction: column;
+    }
 
     h1 {
         letter-spacing: 3px;
@@ -139,9 +149,18 @@ header {
 
             display: flex;
             justify-content: center;
+
+            @media screen and (max-width: 600px) {
+                flex-direction: column;
+            }
+
             li {
                 list-style-type: none;
                 padding: 0 1em;
+
+                @media screen and (max-width: 600px) {
+                    padding: .3em;
+                }
             }
         }
     }
@@ -172,6 +191,10 @@ header {
 
 .article {
     max-width: 600px;
+
+    @media screen and (max-width: 600px) {
+        max-width: 100%;
+    }
 
     .article-end {
         margin-top: 2em;
