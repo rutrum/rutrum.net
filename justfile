@@ -25,3 +25,6 @@ confirm:
     yn = input("Are you sure? [N/y] ")
     if yn != "y": 
         exit(1)
+
+tree:
+    tree -I "public|static" --dirsfirst

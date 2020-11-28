@@ -1,9 +1,11 @@
 +++
 title = "Carnivore Diet"
-template = "single_page.html"
+date = 2020-10-24
 +++
 
 I've decided to try something extreme.  I'm not doing it for some weightloss goal nor am I making a stance against veganism.  I'm doing it because it's fun.  I enjoy challenging myself, especially when it comes to eating.  I like knowing that I'm in control of my eating habits and cravings.  Fasting is another one of these challenges that I have extensive experience doing (I went 5 days straight without eating once.)
+
+<!-- more -->
 
 That said, it is still a diet, and I will post on my website (this one) to log how my body changes throughout.
 

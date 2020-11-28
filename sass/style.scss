@@ -210,6 +210,13 @@ header {
         text-align: right;
     }
 
+    ul {
+        line-height: 1.3em;
+        li {
+            padding: .2em;
+        }
+    }
+
     #page-title {
         font-size: 2em;
         font-weight: 600;
@@ -230,13 +237,7 @@ header {
 .content {
     padding: 1em;
     padding-bottom: 8em;
-}
 
-ul {
-    line-height: 1.3em;
-    li {
-        padding: .2em;
-    }
 }
 
 // Lists of articles
@@ -245,12 +246,29 @@ ul.simple-list {
     li {
         display: flex;
         list-style-type: none;
+        margin-bottom: 1em;
+        
+        .headline {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+            h2 {
+                margin: 0;
+            }
+        }
+
         p {
-            margin-top: -1em;
+            margin: .3em 0;
             text-align: justify;
             text-justify: inter-word;
         }
     }
+}
+
+.date {
+    color: $grey;
+    font-style: italic;
 }
 
 table {

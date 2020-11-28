@@ -4,10 +4,6 @@
     <title>{{ config.title }}</title>
     <meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1">
     <link rel="stylesheet" href="{{ get_url(path="style.css") }}" />
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    </script>
     <script src="https://use.fontawesome.com/6a62231b84.js"></script>
 </head>
 <body>
@@ -17,6 +13,7 @@
             <ul>
                 <li><a href="/projects">Projects</a></li>
                 <li><a href="/12_languages">12 Languages</a></li>
+                <li><a href="/blog">Blog</a></li>
             </ul>
         </nav>
     </header>
@@ -28,14 +25,14 @@
             <ul class="simple-list">
                 {% for subsection in section.subsections %}
                     {% set section = get_section(path = subsection) %}
-                    {% if section.title != "Blog" %}
                     <li>
                         <div>
-                            <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
+                            <div class="headline">
+                                <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
+                            </div>
                             <p>{{ section.description }}</p>
                         </div>
                     </li>
-                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
