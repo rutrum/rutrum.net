@@ -8,7 +8,7 @@ serve:
 
 prod:
     zola build
-    microserver -p 1112 public
+    microserver -p 1111 public
 
 # Builds site and pushes to master on github
 pages MSG: confirm
