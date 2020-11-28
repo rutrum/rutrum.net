@@ -6,6 +6,10 @@ alias s := serve
 serve:
     zola serve
 
+prod:
+    zola build
+    microserver -p 1112 public
+
 # Builds site and pushes to master on github
 pages MSG: confirm
     pkill zola || true
