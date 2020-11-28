@@ -1,9 +1,13 @@
 +++
 title = "Carnivore Diet Conclusion"
-template = "single_page.html"
+date = 2020-11-26
 +++
 
-Happy Thanksgiving.  Today marks the end of my 33 day long carnivore diet.  It was as exciting as I thought it would be. I will discuss how fun cooking was, the difficulties I faced at the grocery store, and of course, analyse some numbers to see if there's some truth behind this "diet."  If you haven't already read the [first article](/blog/carnivore) I'll describe briefly the rules.
+Happy Thanksgiving.  Today marks the end of my 33 day long carnivore diet.  It was as exciting as I thought it would be. I will discuss how fun cooking was, the difficulties I faced at the grocery store, and of course, analyse some numbers to see if there's some truth behind this "diet."  
+
+<!-- more -->
+
+If you haven't already read the [first article](/blog/carnivore) I'll describe briefly the rules.
 
 * From October 24th until the morning of November 26th (that's today!) I ate under the constraints of the diet.
 * Until November 12th, I could eat any kind of meat, so long as it was minimally processed and contained no sugar.  I could also eat dairy.

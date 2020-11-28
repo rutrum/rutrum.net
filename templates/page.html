@@ -19,9 +19,10 @@
                     </a>
                 {% endif %}
             </h1>
+            <div class="date">{{ page.date | date(format="%B %d, %Y") }}</div>
             {{ page.content | safe }}
             <div class="article-end">
-                {% set next = page.earlier %}
+                {% set next = page.later %}
                 {% if next %}
                     <a href="{{ next.permalink | safe }}">Next: {{ next.title }}</a>
                 {% endif %}
