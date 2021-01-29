@@ -8,14 +8,15 @@
 </head>
 <body>
     <header>
-        <h1><a href="/">Rutrum</a></h1>
-        <nav>
+        <div>
             <ul>
+                <li><a href="/">Home</a></li>
                 <li><a href="/projects">Projects</a></li>
                 <li><a href="/12_languages">12 Languages</a></li>
                 <li><a href="/blog">Blog</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="horizontal-bar"></div>
     </header>
     <div class="content">
         {% block content %}
@@ -39,6 +40,7 @@
         {% endblock content %}
     </div>
     <footer>
+        <div class="horizontal-bar"></div>
         <ul>
             <li>
                 <a href="/david_purdum_resume.pdf" target="_blank">
