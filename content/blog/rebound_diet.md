@@ -7,7 +7,7 @@ Holidays are killer.  Since going carnivore, I have endured Thanksgiving day. I 
 
 <!-- more -->
 
-It's been a week since the Super Bowl where I hosted a party and cooked about 20 people's worth of food for my stellar 8 guests.  After taking the opportunity to eat all the leftovers and clear out my fridge of all the unhealthy food, I've noticed a dramatic change in my health.  I woke up with acne on my face this morning, something I've been clear of for many years now.  My bloody noses have been as frequent as they've been this winter.  My mood has taken a turn for worst (among other reasons) and I weighed myself this morning at 200 lbs.  That's right, in the [last diet blog](/blog/carnivore-conclusion) I reported that I finished the carnivore diet on November 26th weighing in at 176 lbs.  If that doesn't sound drastic enough, just 15 days ago I weighed 182.8 lbs.  Nearly twenty pounds in two weeks.
+It's been a week since the Super Bowl where I hosted a party and cooked about 20 people's worth of food for my stellar 8 guests.  After taking the opportunity to eat all the leftovers and clear out my fridge of all the unhealthy food, I've noticed a dramatic change in my health.  I woke up with acne on my face this morning, something I've been clear of for many years now.  My bloody noses have been as frequent as they've been this winter.  My mood has taken a turn for worst (among other reasons) and I weighed myself this morning at 200 lbs.  Yeah, that's right. In the [last diet blog](/blog/carnivore-conclusion) I reported that I finished the carnivore diet on November 26th weighing in at 176 lbs.  If that doesn't sound drastic enough, just 15 days ago I weighed 182.8 lbs.  Nearly twenty pounds in two weeks.
 
 ## How I Ended up Here
 
@@ -41,8 +41,8 @@ It's pretty easy to dismiss this plan as outragous or dangerous.  And that might
 
 I do it because I want to be healthier, so let me have this!
 
-## Back to 185!
+## Back to 180!
 
-Perhaps I shouldn't do some fixed amount of time for this diet.  Maybe I should keep doing it until I hit some goal weight.  Again, weight isn't a great metric for determining if I'm healthy, but it's easy to measure and I have lots of prior data to compare it to.  I'll stick to this ground beef and eggs diet until I'm back at 180 pounds.  This might take me a while.  I expect to lose the first 10ish pounds pretty quickly, maybe just as fast as I gained it.  The next 5 pounds though, that will be tough. But I think I can handle it.  The challenge is what will drive me to succeed.  
+Perhaps I shouldn't do some fixed amount of time for this diet.  Maybe I should keep doing it until I hit some goal weight.  Again, weight isn't a great metric for determining if I'm healthy, but it's easy to measure and I have lots of prior data to compare it to.  I'll stick to this ground beef and eggs diet until I'm back at 180 pounds.  This might take me a while.  I expect to lose the first 10ish pounds pretty quickly, maybe just as fast as I gained it.  The next 10 pounds though, that will be tough. But I think I can handle it.  The challenge is what will drive me to succeed.  
 
-Of course, I'll be keeping myself accountable on [my instagram](https://www.instagram.com/dave_holds_himself_accountable/).  Ground beef and eggs til 185!
+Of course, I'll be keeping myself accountable on [my instagram](https://www.instagram.com/dave_holds_himself_accountable/).  Ground beef and eggs til 180!
