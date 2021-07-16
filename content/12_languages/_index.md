@@ -21,3 +21,7 @@ I spend the next year learning the following programming languages.
 </div>
 
 I report back after every month with a blog post on how difficult it was to learn and how they rank up against one another.
+
+## ! Project on Hold
+
+A rough winter and the start of schooling again has made me put this project on the backburner (I also don't Java had me that excited either.)  When I return I'll probably jump straight to TypeScript. 
