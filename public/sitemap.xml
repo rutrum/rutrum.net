@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://149.28.43.146/</loc>
+        <loc>149.28.43.146/</loc>
     </url>
     <url>
-        <loc>http://149.28.43.146/12_languages/</loc>
+        <loc>149.28.43.146/12_languages/</loc>
     </url>
     <url>
-        <loc>http://149.28.43.146/12_languages/month-0/</loc>
+        <loc>149.28.43.146/12_languages/month-0/</loc>
         <lastmod>2020-09-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/12_languages/month-1-c/</loc>
+        <loc>149.28.43.146/12_languages/month-1-c/</loc>
         <lastmod>2020-10-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/blog/</loc>
+        <loc>149.28.43.146/blog/</loc>
     </url>
     <url>
-        <loc>http://149.28.43.146/blog/carnivore-conclusion/</loc>
+        <loc>149.28.43.146/blog/carnivore-conclusion/</loc>
         <lastmod>2020-11-26</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/blog/carnivore/</loc>
+        <loc>149.28.43.146/blog/carnivore/</loc>
         <lastmod>2020-10-24</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/blog/rebound-diet/</loc>
+        <loc>149.28.43.146/blog/rebound-diet/</loc>
         <lastmod>2021-02-16</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/</loc>
+        <loc>149.28.43.146/projects/</loc>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/albumdl/</loc>
+        <loc>149.28.43.146/projects/albumdl/</loc>
         <lastmod>2020-03-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/autozxy/</loc>
+        <loc>149.28.43.146/projects/autozxy/</loc>
         <lastmod>2020-01-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/convert-case/</loc>
+        <loc>149.28.43.146/projects/convert-case/</loc>
         <lastmod>2020-05-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/guidedawg/</loc>
+        <loc>149.28.43.146/projects/guidedawg/</loc>
         <lastmod>2020-04-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/healthyhorizons/</loc>
+        <loc>149.28.43.146/projects/healthyhorizons/</loc>
         <lastmod>2020-05-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/mn/</loc>
+        <loc>149.28.43.146/projects/mn/</loc>
         <lastmod>2020-03-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/resumestack/</loc>
+        <loc>149.28.43.146/projects/resumestack/</loc>
         <lastmod>2020-02-01</lastmod>
     </url>
     <url>
-        <loc>http://149.28.43.146/projects/typesync/</loc>
+        <loc>149.28.43.146/projects/typesync/</loc>
         <lastmod>2020-01-21</lastmod>
     </url>
 </urlset>
