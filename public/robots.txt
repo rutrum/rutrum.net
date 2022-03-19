@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: davepurdum.com/sitemap.xml
+Sitemap: http://davepurdum.com/sitemap.xml
