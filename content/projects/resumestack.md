@@ -4,6 +4,9 @@ description = "A script that automatically generates my resume from a sqlite dat
 date = 2020-02-01
 hidden = true
 
+[taxonomies]
+tags = ["programming"]
+
 [extra]
 github = "https://github.com/rutrum/resumestack"
 +++

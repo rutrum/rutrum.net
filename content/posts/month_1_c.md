@@ -1,6 +1,9 @@
 +++
-title = "C"
+title = "Month 1: C"
 date = 2020-10-01
+
+[taxonomies]
+tags = ["12-languages", "programming"]
 
 [extra]
 github = "https://github.com/rutrum/12-languages/tree/master/c"

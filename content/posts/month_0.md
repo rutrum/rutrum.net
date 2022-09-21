@@ -1,6 +1,9 @@
 +++
 title = "Month 0"
 date = 2020-09-01
+
+[taxonomies]
+tags = ["12-languages", "programming"]
 +++
 
 I've been very interested in learning more programming languages.  After diving head first into Rust a year ago, and having a blast reading [the book](https://doc.rust-lang.org/book/) I can't help but wonder if I'll have a similar experience with other languages.  Why not challenge myself to learn 12 more?
@@ -17,32 +20,32 @@ When I finally discovered that all these features weren't unique to rust, I star
 
 Here is a quick run-down of every language I've written a single program in, to set a baseline for my programming language knowledge.
 
-{{ langtitle(lang="javascript", title="JavaScript", size=3) }} 
+{{ langtitle(proglang="javascript", title="JavaScript", size=3) }} 
 
 It all started in highschool with HTML and CSS.  JavaScript followed, and I would eventually attend a bootcamp that taught me ES6 and React, and I've used that knowledge to develop various websites and APIs written in Node (such as [Type Sync](@/projects/typesync.md).)
 
-{{ langtitle(lang="cpp", title="C++", size=3) }} 
+{{ langtitle(proglang="cpp", title="C++", size=3) }} 
 
 Technically we used the g++ compiler and named our files `first.cpp` in my introductory programming course.  But we really weren't writing C++, it was more just C with file streams.  We used `cin` and `cout` and I'm pretty sure the rest was just C code.  I would use C/C++ more in my advanced classes.  I learned to allocate arrays and push pointers around.  I would also learn how to use the MPI library bindings and write parallel programs.  But in all my computer science classes it was never used for its OOP features.  It bothers me that I can't quite distinguish which features I've used are C or C++11 or otherwise.
 
-{{ langtitle(lang="java", title="Java", size=3) }} 
+{{ langtitle(proglang="java", title="Java", size=3) }} 
 
-I used Java to learn object oriented programming.  But all of my projects weren't complex enough to create numerous classes that inherited from one another.  So while I touched on some features like inheritance and polymorphism, I am certainly not used to writing this way.  I used java for maybe a year as my go-to, but fell aside as C++ was used for my advanced classes and faster for my [computational work](@/projects/mn.md).
+I used Java to learn object oriented programming.  But all of my projects weren't complex enough to create numerous classes that inherited from one another.  So while I touched on some features like inheritance and polymorphism, I am certainly not used to writing this way.  I used java for maybe a year as my go-to, but fell aside as C++ was used for my advanced classes and faster for my [computational work](@/archive/mn.md).
 
-{{ langtitle(lang="csharp", title="C#", size=3) }} 
+{{ langtitle(proglang="csharp", title="C#", size=3) }} 
 
 I had a single computer science course for C#. I formally learned error handling in C# and actually had a chance to write a large piece of software with 4 other classmates.  But I never did anything more than what I knew how to do in Java.
 
 
-{{ langtitle(lang="r", title="R", size=3) }} 
+{{ langtitle(proglang="r", title="R", size=3) }} 
 
 I used this for my statistics courses.  I had no formal instruction.  I know just enough to import some packages and run functions.  I think we used a loop twice across all my statistics classes, and never once wrote a function.
 
-{{ langtitle(lang="python", title="Python", size=3) }} 
+{{ langtitle(proglang="python", title="Python", size=3) }} 
 
 I picked this up from sitting in on the brand new data science course.  It was taught at a low level but it was the first time I was exposed to many language features.  I learned about tuples, dictionaries (hashmaps), slicing, and lists.  I relied on this heavily for my data science projects at my internship, and it has since been my "scripting" language of choice.
 
-{{ langtitle(lang="rust", title="Rust", size=3) }} 
+{{ langtitle(proglang="rust", title="Rust", size=3) }} 
 
 I had heard of rust because I wanted to see if there was a language faster than C/C++ that I could do my computational research in.  I came across "the book" and read it in its entirety.   I learned about enums (my favorite language feature), match statements, mutability, memory management (the book described what I should have been thinking about when I was writing C++), iterators, closures, and many other things.  The book really transformed me as a developer.
 
@@ -59,18 +62,18 @@ That said, I'd say I'm **proficient** in Rust, Python, and JavaScript.  I'm **fa
 The current plan is to try and learn one language every month for the next year.  I've selected the following twelve languages.
 
 <div class="month-list">
-{{ langsummary(lang="c", num="1", name="C") }}
-{{ langsummary(lang="java", num="2", name="Java") }}
-{{ langsummary(lang="typescript", num="3", name="TypeScript") }}
-{{ langsummary(lang="scala", num="4", name="Scala") }}
-{{ langsummary(lang="nim", num="5", name="Nim") }}
-{{ langsummary(lang="haskell", num="6", name="Haskell") }}
-{{ langsummary(lang="cpp", num="7", name="C++") }}
-{{ langsummary(lang="julia", num="8", name="Julia") }}
-{{ langsummary(lang="elixir", num="9", name="Elixir") }}
-{{ langsummary(lang="ruby", num="10", name="Ruby") }}
-{{ langsummary(lang="dart", num="11", name="Dart") }}
-{{ langsummary(lang="go", num="12", name="Go") }}
+{{ langsummary(proglang="c", num="1", name="C") }}
+{{ langsummary(proglang="java", num="2", name="Java") }}
+{{ langsummary(proglang="typescript", num="3", name="TypeScript") }}
+{{ langsummary(proglang="scala", num="4", name="Scala") }}
+{{ langsummary(proglang="nim", num="5", name="Nim") }}
+{{ langsummary(proglang="haskell", num="6", name="Haskell") }}
+{{ langsummary(proglang="cpp", num="7", name="C++") }}
+{{ langsummary(proglang="julia", num="8", name="Julia") }}
+{{ langsummary(proglang="elixir", num="9", name="Elixir") }}
+{{ langsummary(proglang="ruby", num="10", name="Ruby") }}
+{{ langsummary(proglang="dart", num="11", name="Dart") }}
+{{ langsummary(proglang="go", num="12", name="Go") }}
 </div>
 
 I want to relearn C/C++ and Java, now that I'm more experienced and can learn at a far faster rate.  The others?  They either looked fun (Julia), were very popular (Go), or were going to turn my understanding of programming on its head (Haskell).  Of course I'm making sure I learn C before C++, and Java before Scala.  Hopefully that will make learning the ladder languages easier.

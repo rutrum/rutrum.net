@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="slim">
+    <ul class="simple-list">
+        {% for term in terms %}
+            <li>
+                {{ term.name }}
+            </li>
+
+        {% endfor %}
+    </ul>
+</div>
+{% endblock content %}
