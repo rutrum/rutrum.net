@@ -2,7 +2,7 @@
 base_url = "https://rutrum.net"
 
 title = "Rutrum"
-description = "Personal website for Dave Purdum."
+description = "Personal website."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -11,6 +11,10 @@ compile_sass = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+
+taxonomies = [
+  { name = "tags", feed = true }
+]
 
 [markdown]
 highlight_code = true

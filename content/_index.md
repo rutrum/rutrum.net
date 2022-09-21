@@ -2,10 +2,12 @@
 title = "Home"
 +++
 
-<h1 id="my-name">Dave Purdum</h1>
+My name's Dave.  I'm interested in 3d printing, weightlifting, data science, programming, and twisty puzzles.
 
-I'm a recent graduate of Butler University studying mathematics, computer science, and statistics. I'm interested in finding ways to apply all three of these disciplines through research, writing, and application development.
-
-## Why Rutrum?
-
-Rutrum was the name of my first World of Warcraft character (that I made in 2008) and has since been my online alias.  When I mistakenly named my github _rutrum_ instead of _davidpurdum_ many years ago, I was stuck with it.
+This site is a work in progress.  I'd like to make some changes:
+* Make the header of site have more contrast
+* Log my twisty puzzle collection on here
+* Host my 3d modeling projects
+* Write more articles on my favorite tools, or projects I've undertaken
+* Look more into using taxonomies to make it easier to add articles without compromising the navigation of the site
+* Rewrite articles on my current programming projects

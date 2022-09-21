@@ -1,6 +1,9 @@
 +++
 title = "Rebound Diet"
 date = 2021-02-16
+
+[taxonomies]
+tags = ["diet"]
 +++
 
 Holidays are killer.  Since going carnivore, I have endured Thanksgiving day. I stuffed my face with my mother's cooking, but bounced back and kept up a good habit of eating low carb.  I went a full week of Christmas eating trays of cookies, but bounced back after a seven day fast.  I throw a superbowl party and everything falls apart, apparently.

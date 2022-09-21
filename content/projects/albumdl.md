@@ -3,6 +3,9 @@ title = "album-dl"
 description = "script to download and tag albums"
 date = 2020-03-01
 
+[taxonomies]
+tags = ["command-line", "programming"]
+
 [extra]
 github = "https://github.com/rutrum/album-dl"
 +++
