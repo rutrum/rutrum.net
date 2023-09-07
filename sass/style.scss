@@ -30,8 +30,8 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: $light;
-    color: $dark;
+    background: $super-light;
+    color: $super-dark;
 
     font-family: "Noto Sans", sans-serif;
     font-weight: normal; 
@@ -61,32 +61,35 @@ body {
     }
 }
 
+// inline code blocks
 code {
-    background-color: #e3e3e3;
+    background-color: $code-block-color;
     padding: 3px;
     border-radius: 2px;
     font-size: 125%;
 }
 
+// code blocks
 pre {
-    border: 2px solid $dark;
-    background-color: $dark-grey ! important;
+    border: 2px solid $semi-light;
+    background-color: $light ! important;
     padding: 10px;
     border-radius: 5px;
 
     code {
         background-color: #00000000;
         line-height: 1.4;
+        color: $super-dark;
     }
 }
 
 a {
     text-decoration: none;
     font-style: italic;
-    color: $red;
+    color: $dark;
 
     &:hover {
-        color: $dark-red;
+        color: $semi-dark;
     }
 }
 
@@ -105,6 +108,16 @@ p {
     text-justify: inter-word;
 }
 
+footer, header {
+    a {
+        font-style: normal;
+        color: $super-light;
+        &:hover {
+            color: $light;
+        }
+    }
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -119,15 +132,7 @@ footer {
     align-items: center;
     justify-content: center;
     
-    background-color: $dark;
-
-    a {
-        font-style: normal;
-        color: $red;
-        &:hover {
-            color: $grey;
-        }
-    }
+    background-color: $super-dark;
 
     ul { 
         display: flex;
@@ -139,24 +144,14 @@ footer {
             padding: 0 1em;
         }
     } 
-
 }
 
 header {
     text-align: center;
     overflow: hidden;
-    background-color: $dark;
+    background-color: $super-dark;
 
     padding-left: calc(100vw - 100%); // fix scrollbar jumping
-
-    a {
-        text-decoration: none;
-        font-style: normal;
-        color: $red;
-        &:hover {
-            color: $grey;
-        }
-    }
 
     ul {
         font-weight: 600;
@@ -184,7 +179,7 @@ header {
 .horizontal-bar {
     height: .5em;
     width: 100%;
-    background: linear-gradient(to right, $red, $purple);
+    background: linear-gradient(to right, $semi-light, $light);
 }
 
 .table-of-contents {
@@ -282,7 +277,7 @@ ul.simple-list {
 }
 
 .date {
-    color: $grey;
+    color: $semi-light;
     font-style: italic;
 }
 
@@ -292,7 +287,7 @@ table {
     width: 100%;
 
     th, td {
-        border: 1px solid $light-grey;
+        border: 1px solid $light;
         padding: 8px;
     }
 }
@@ -300,7 +295,7 @@ table {
 .bm-cal > table {
     table-layout: fixed;
     em {
-        color: $grey;
+        color: $dark;
     }
 
     strong {
@@ -316,9 +311,9 @@ table {
 .clickable {
     text-decoration: none;
     font-style: italic;
-    color: $red;
+    color: $super-light;
     cursor: pointer;
     &:hover {
-        color: $dark-red;
+        color: $light;
     }
 }
