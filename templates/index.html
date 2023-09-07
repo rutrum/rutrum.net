@@ -4,7 +4,7 @@
     <title>{{ config.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ get_url(path="style.css") }}" />
-    <script src="https://use.fontawesome.com/6a62231b84.js"></script>
+    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css"></link>
 </head>
 <body>
     <header>
@@ -41,24 +41,14 @@
     <footer>
         <div class="horizontal-bar"></div>
         <ul>
+            {% for link in config.extra.footer.links %}
             <li>
-                <a href="https://typesync.rutrum.net" target="_blank">
-                    Typesync
-                    <i class="fa fa-lg fa-keyboard-o" aria-hidden="true"></i>
+                <a href="{{ link.url }}" target="_blank">
+                    {{ link.text }}
+                    <i class="nf {{ link.icon }}" aria-hidden="true"></i>
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/rutrum" target="_blank">
-                    Github
-                    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://stringcase.org" target="_blank">
-                    stringcase.org
-                    <i class="fa fa-me fa-quote-right" aria-hidden="true"></i>
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </footer>
     <script src="{{ get_url(path="main.js") }}"></script>
