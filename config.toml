@@ -22,3 +22,20 @@ highlight_theme = "base16-ocean-dark"
 
 [extra]
 # Put all your custom variables here
+
+# footer.links = [ "A", "B", "C" ]
+
+[[extra.footer.links]]
+text = "TypeSync"
+url = "https://typesync.rutrum.net"
+icon = "nf-fa-keyboard_o"
+
+[[extra.footer.links]]
+text = "GitHub"
+url = "https://github.com/rutrum"
+icon = "nf-fa-github"
+
+[[extra.footer.links]]
+text = "stringcase.org"
+url = "https://stringcase.org"
+icon = "nf-fa-quote_right"
