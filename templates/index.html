@@ -10,9 +10,9 @@
     <header>
         <div>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/posts">Articles</a></li>
+                {% for link in config.extra.header.links %}
+                    <li><a href="{{link.url}}">{{link.text}}</a></li>
+                {% endfor %}
             </ul>
         </div>
         <div class="horizontal-bar"></div>

@@ -23,7 +23,17 @@ highlight_theme = "base16-ocean-dark"
 [extra]
 # Put all your custom variables here
 
-# footer.links = [ "A", "B", "C" ]
+[[extra.header.links]]
+text = "Home"
+url = "/"
+
+[[extra.header.links]]
+text = "Projects"
+url = "/projects"
+
+[[extra.header.links]]
+text = "Articles"
+url = "/posts"
 
 [[extra.footer.links]]
 text = "TypeSync"
