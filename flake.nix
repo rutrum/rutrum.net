@@ -5,12 +5,22 @@
   };
   outputs = { self, nixpkgs }: 
   let 
-    pkgs = nixpkgs.legacyPackages.x86_64-linux;
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
   in 
-    with pkgs; {
-    devShells.x86_64-linux.default = mkShell {
+    {
+      packages.${system}.default = pkgs.stdenv.mkDerivation {
+        pname = "rutrum.net";
+        version = "0.1.0";
+        src = ./.;
+        nativeBuildInputs = with pkgs; [ zola ];
+        buildPhase = "zola build";
+        installPhase = "cp -r public $out";
+      };
+      
+      devShells.${system}.default = pkgs.mkShell {
         name = "rutrum.net";
-        buildInputs = [
+        buildInputs = with pkgs; [
             zola
             just
             microserver
