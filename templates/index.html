@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>{{ config.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ get_url(path="style.css") }}" />
     <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css"></link>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-            <ul>
-                {% for link in config.extra.header.links %}
-                    <li><a href="{{link.url}}">{{link.text}}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="horizontal-bar"></div>
+      <nav>
+        {% for link in config.extra.header.links %}
+        <div><a href="{{link.url}}">{{link.text}}</a></div>
+        {% endfor %}
+      </nav>
+      <div class="horizontal-bar"></div>
     </header>
     <div class="content">
-        {% block content %}
-            <div class="slim">
-            {{ section.content | safe }}
+      {% block content %}
+      <div class="slim">
+        {{ section.content | safe }}
 
-            <ul class="simple-list">
-                {% for subsection in section.subsections %}
-                    {% set section = get_section(path = subsection) %}
-                    <li>
-                        <div>
-                            <div class="headline">
-                                <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
-                            </div>
-                            <p>{{ section.description }}</p>
-                        </div>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endblock content %}
+        <ul class="simple-list">
+          {% for subsection in section.subsections %}
+          {% set section = get_section(path = subsection) %}
+          <li>
+            <div>
+              <div class="headline">
+                <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
+              </div>
+              <p>{{ section.description }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endblock content %}
     </div>
     <footer>
-        <div class="horizontal-bar"></div>
-        <ul>
-            {% for link in config.extra.footer.links %}
-            <li>
-                <a href="{{ link.url }}" target="_blank">
-                    {{ link.text }}
-                    <i class="nf {{ link.icon }}" aria-hidden="true"></i>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+      <div class="horizontal-bar"></div>
+      <nav>
+        {% for link in config.extra.footer.links %}
+        <div>
+          <a href="{{ link.url }}" target="_blank">
+            {{ link.text }}
+            <i class="nf {{ link.icon }}" aria-hidden="true"></i>
+          </a>
+        </div>
+        {% endfor %}
+      </nav>
     </footer>
     <script src="{{ get_url(path="main.js") }}"></script>
-</body>
+  </body>
 </html>
