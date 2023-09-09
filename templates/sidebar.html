@@ -1,0 +1,18 @@
+{% if page.ancestors | length > 1 %}
+  <aside>
+    {% set section = get_section(path = page.ancestors[1]) %}
+    {% for page in section.pages %}
+      <li><a href="{{ page.permalink | safe }}">
+        {{ page.title }}
+      </a></li>
+    {% endfor %}
+    <li></li>
+    <li></li>
+    {% for h1 in page.toc %} 
+      <li><a href="{{ h1.permalink | safe }}">
+        {{ h1.title }}
+      </a></li>
+    {% endfor %}
+  </aside>
+{% endif %}
+

@@ -28,11 +28,7 @@ text = "Home"
 url = "/"
 
 [[extra.header.links]]
-text = "Projects"
-url = "/projects"
-
-[[extra.header.links]]
-text = "Articles"
+text = "Posts"
 url = "/posts"
 
 [[extra.footer.links]]

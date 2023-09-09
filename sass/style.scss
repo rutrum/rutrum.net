@@ -93,7 +93,7 @@ a {
     }
 }
 
-p {
+p, ul {
     line-height: 1.5em;
 }
 
@@ -118,43 +118,15 @@ footer, header {
     }
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    margin-top: 5em;
-
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    background-color: $super-dark;
-
-    ul { 
-        display: flex;
-        justify-content: center;
-
-        padding: .5em;
-        li {
-            list-style-type: none;
-            padding: 0 1em;
-        }
-    } 
-}
-
 header {
     text-align: center;
     overflow: hidden;
     background-color: $super-dark;
 
     padding-left: calc(100vw - 100%); // fix scrollbar jumping
+    font-weight: 600;
 
-    ul {
-        font-weight: 600;
+    nav {
         padding: 1.5em;
         margin: 0;
 
@@ -165,7 +137,7 @@ header {
             flex-direction: column;
         }
 
-        li {
+        div {
             list-style-type: none;
             padding: 0 1em;
 
@@ -176,21 +148,40 @@ header {
     }
 }
 
+footer {
+  // header but at bottom
+  position: absolute;
+  bottom: 0;
+  margin-top: 5em;
+  width: 100%;
+  
+  // and not bold
+  font-weight: 500;
+
+  @extend header
+}
+
 .horizontal-bar {
     height: .5em;
     width: 100%;
     background: linear-gradient(to right, $semi-light, $light);
 }
 
-.table-of-contents {
+aside {
     margin-right: 3em;
     margin-top: 1.5em;
 
     font-size: 90%;
     font-weight: 600;
-
-    flex: 0 0 150px;
     text-align: right;
+
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: sticky;
+    top: 1.5em;
 
     li {
         padding: 10px;
@@ -226,7 +217,7 @@ header {
         }
     }
 
-    #page-title {
+    h1 {
         font-size: 2em;
         font-weight: 600;
         font-style: italic;
@@ -240,6 +231,7 @@ header {
 .reader {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 // Wrapper for all content across site
