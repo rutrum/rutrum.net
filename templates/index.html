@@ -19,20 +19,22 @@
       {% block content %}
       <div class="slim">
         {{ section.content | safe }}
-
+        <br>
         <ul class="simple-list">
-          {% for subsection in section.subsections %}
-          {% set section = get_section(path = subsection) %}
-          <li>
-            <div>
-              <div class="headline">
-                <h2><a href={{section.permalink}}>{{ section.title }}</a></h2>
-              </div>
-              <p>{{ section.description }}</p>
-            </div>
-          </li>
-          {% endfor %}
+          {% set section = get_section(path="posts/_index.md") %}
+            {% for page in section.pages | slice(end=3) %}
+                <li>
+                    <div>
+                        <div class="headline">
+                            <h2><a href={{page.permalink | safe }}>{{page.title}}</a></h2>
+                            <div class="date">{{page.date | date(format="%B %Y")}}</div>
+                        </div>
+                        {{ page.summary | safe }}
+                    </div>
+                </li>
+            {% endfor %}
         </ul>
+        <a href={{section.permalink}}>Read more articles.</a>
       </div>
       {% endblock content %}
     </div>
