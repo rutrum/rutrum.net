@@ -8,15 +8,18 @@ for (let i = 0; i < spoilers.length; i++) {
     let spoiler = spoilers[i]
     let clickable = spoiler.querySelector("p")
     let spoils = spoiler.querySelector(".spoils")
-    let arrow = spoiler.querySelector(".arrow")
+    let down_arrow = spoiler.querySelector(".nf-fa-caret_down.arrow")
+    let right_arrow = spoiler.querySelector(".nf-fa-caret_right.arrow")
     clickable.addEventListener("click", () => {
         let d = spoils.style.display
         if (d == "initial") {
             spoils.style.display = "none"
-            arrow.classList.remove("selected")
+            down_arrow.style.display = "none"
+            right_arrow.style.display = "initial"
         } else {
             spoils.style.display = "initial"
-            arrow.classList.add("selected")
+            down_arrow.style.display = "initial"
+            right_arrow.style.display = "none"
         }
     })
 }
