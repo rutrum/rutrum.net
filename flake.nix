@@ -23,7 +23,6 @@
         buildInputs = with pkgs; [
             zola
             just
-            microserver
         ];
     };
   };

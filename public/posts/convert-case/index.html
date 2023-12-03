@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rutrum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://rutrum.net/style.css" />
+    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css"></link>
+  </head>
+  <body>
+    <header>
+      <nav>
+        
+        <div><a href="&#x2F;">Home</a></div>
+        
+        <div><a href="&#x2F;posts">Posts</a></div>
+        
+      </nav>
+      <div class="horizontal-bar"></div>
+    </header>
+    <div class="content">
+      
+    <div class="reader">
+        
+  <aside>
+     
+      <li><a href="https://rutrum.net/posts/convert-case/#use-case">
+        Use Case
+      </a></li>
+     
+      <li><a href="https://rutrum.net/posts/convert-case/#the-rabbit-hole">
+        The Rabbit Hole
+      </a></li>
+     
+      <li><a href="https://rutrum.net/posts/convert-case/#stringcase-org">
+        stringcase.org
+      </a></li>
+    
+  </aside>
+
+
+
+        <div class="article">
+            <h1>
+                Case Conversion
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;rutrum&#x2F;convert-case">
+                        <i class="nf nf-fa-github" aria-hidden="true"></i>
+                    </a>
+                
+            </h1>
+            
+  
+  
+    <span class="tag"><a href="/tags/command-line">
+      #command-line
+    </a></span>
+  
+    <span class="tag"><a href="/tags/programming">
+      #programming
+    </a></span>
+  
+
+
+            
+            <div class="date">May 01, 2020</div>
+            
+            <p>Turns out there is no linux utility to easily convert filenames written in snake case into a title case phrase, so I wrote the utility myself.</p>
+<span id="continue-reading"></span><h2 id="use-case">Use Case</h2>
+<p>I rediscovered emulators and roms and had such a fun time playing them, I wanted a quick way to load one up.  So I decided to just pipe all the rom filenames into a dmenu so I could select a file to run with an emulator.  For example, I would be presented a list like the following.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ ls ~/roms
+</span><span>donkey_kong_64.z64
+</span><span>kirby_64_the_crystal_shards.z64
+</span><span>super_mario_64.z64
+</span></code></pre>
+<p>I thought it would be nice if it weren't written in snake case, but instead in title case (delimited by spaces and the first letter of each word is capitalized.)  Thinking this was a simple task I googled linux utilities to do this, and couldn't find anything simple.  Sure, I could use <a href="https://unix.stackexchange.com/questions/196239/convert-underscore-to-pascalcase-ie-uppercamelcase">some complex sed command</a> but it scares me and I refuse to settle with bloatware.</p>
+<p>Thus, <code>convert_case</code> and <code>ccase</code> were born.  Command line utility <code>ccase</code> is written in rust and <code>convert_case</code> is the library behind it.  Both of these are <a href="https://crates.io/crates/convert_case">published to crates.io</a> so anyone can install <code>ccase</code> with a &quot;cargo install&quot; command and <code>convert_case</code> can be included within cargo projects.</p>
+<p><code>ccase</code> will convert from any case to any case (and there are some odd ones I found out) but it let me solve my problem with a sweet one liner.  It trims off the file extension and then passes the name into ccase which parses the name as snake case and then converts it into title case.  Now selecting the right rom is easier and looks nice.  Worth it!</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ ls ~/roms | cut -d &#39;.&#39; -f 1 | ccase -f snake -t title
+</span><span>Donkey Kong 64
+</span><span>Kirby 64 The Crystal Shards
+</span><span>Super Mario 64
+</span></code></pre>
+<h2 id="the-rabbit-hole">The Rabbit Hole</h2>
+<p>In the process of creating this utility I had to investigate the naming conventions surrounding certain cases.  Did you know that these names are just convention, and there isn't much of a definitive source for the naming?  I could have sworn some programming language or IDE or something would have put it all in writing.</p>
+<p>The &quot;snake&quot; case is a good example of ambiguity.  A snake case string is all lowercase letters with underscores combining the words.  Snake case is called snake by some, but according to Python's documentation they call it exactly what it is: <a href="https://docs.python.org/3/tutorial/controlflow.html?highlight=lowercase_with_underscore#intermezzo-coding-style">&quot;lowercase_with_underscores&quot;</a>.</p>
+<p>Kebab case is interesting as well.  The case with lowercase letters and hyphens was first called kebab case <a href="https://stackoverflow.com/questions/11273282/whats-the-name-for-hyphen-separated-case">in a Stack Overflow post from 2012</a> (it seems that history has changed, and the original answer is no longer present).  I've even heard Pascal case, mixed case, and camel case used to refer to two different cases.  It's all ambiguous.</p>
+<p>Who is the source of truth in this matter?  I think the sources with the most authority are programming languages.  Cases are relevant particularly in this domain and documentation outlines the expected case for variables, functions, classes, etc.  You could also look to conventions by large projects and software, such as the linux kernel.</p>
+<p>But alas, there is no consistency.  There are some terms that have become standard, however.  Snake case and camel case are well known, and typically consistent in modern writing.  But what do you call a case that's all uppercase letters with hyphens?  Considering this isn't used very often, it's not well mentioned.  I've heard &quot;upper kebab case&quot; and &quot;Cobol case&quot;, among others.</p>
+<p>Well, I made my own Rust library and command line utility that offers a <em>large</em> list of cases.  Why don't I take my stab at standardizing?</p>
+<h2 id="stringcase-org">stringcase.org</h2>
+<p>That's right, I literally bought a domain dedicated to consolidating the history and definition of string cases.  This site, unforunately, is still a great work in progress.  I'd like this site to accomplish the following things.</p>
+<ol>
+<li>Precisely define what a string case is.</li>
+<li>Propose a standard name for each case.</li>
+<li>Propose a standard for case conversion.</li>
+<li>Document the history of naming conventions.</li>
+</ol>
+<p>I hope that this site serves as a point of reference for naming conventions.  Most importantly, I'd love this to be a standard of some sort, that other case-conversion utilities use for consistency.  Although, that sounds hard, and it might be silly to try to standardize this.  But I'll have my own project, in Rust, that follows the standard for reference.</p>
+<p>Kind of a silly project, but it's been very interesting!  I've even gone so far as to consult the reference that defines text itself: Unicode.  They use terminology I'd never considered and handle edge cases to the smallest detail.  Knowing unicode is an important part of this project.  I recently had to update my Rust library to handle edge cases involving unicode that had previously crashed the program.</p>
+<p>Be sure to <a href="https://stringcase.org">check the site</a> and see how it progresses!</p>
+
+            <div class="article-end">
+                
+                
+                    <a href="https://rutrum.net/posts/carnivore/">Next: Carnivore Diet</a>
+                
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer>
+      <div class="horizontal-bar"></div>
+      <nav>
+        
+        <div>
+          <a href="https:&#x2F;&#x2F;typesync.rutrum.net" target="_blank">
+            TypeSync
+            <i class="nf nf-fa-keyboard_o" aria-hidden="true"></i>
+          </a>
+        </div>
+        
+        <div>
+          <a href="https:&#x2F;&#x2F;github.com&#x2F;rutrum" target="_blank">
+            GitHub
+            <i class="nf nf-fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        
+        <div>
+          <a href="https:&#x2F;&#x2F;stringcase.org" target="_blank">
+            stringcase.org
+            <i class="nf nf-fa-quote_right" aria-hidden="true"></i>
+          </a>
+        </div>
+        
+      </nav>
+    </footer>
+    <script src="https://rutrum.net/main.js"></script>
+  </body>
+</html>

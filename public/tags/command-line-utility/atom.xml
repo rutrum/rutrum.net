@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Rutrum - command-line-utility</title>
+    <subtitle>Personal website.</subtitle>
+    <link href="https://rutrum.net/tags/command-line-utility/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://rutrum.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-09-15T00:00:00+00:00</updated>
+    <id>https://rutrum.net/tags/command-line-utility/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Utility for Paths</title>
+        <published>2023-09-15T00:00:00+00:00</published>
+        <updated>2023-09-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rutrum.net/posts/path-utility/" type="text/html"/>
+        <id>https://rutrum.net/posts/path-utility/</id>
+        
+        <summary type="html">&lt;p&gt;I found another rabbit hole of unstandardized naming conventions...what do you call parts of a file path?&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
