@@ -1,47 +1,38 @@
-# The URL the site will be built for
 base_url = "https://rutrum.net"
-
 title = "Rutrum"
 description = "Personal website."
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+theme = "typeset"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 taxonomies = [
   { name = "tags", feed = true }
 ]
 
-[markdown]
-highlight_code = true
-highlight_theme = "base16-ocean-dark"
+[markdown.highlighting]
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-frappe"
 
 [extra]
-# Put all your custom variables here
+author = "rutrum"
 
-[[extra.header.links]]
-text = "Home"
-url = "/"
+nav_links = [
+    { name = "Home", url = "/" },
+    { name = "Blog", url = "/blog" },
+]
 
-[[extra.header.links]]
-text = "Posts"
-url = "/posts"
-
-[[extra.footer.links]]
+[[extra.footer_links]]
 text = "TypeSync"
 url = "https://typesync.rutrum.net"
-icon = "nf-fa-keyboard_o"
+icon = "keyboard"
 
-[[extra.footer.links]]
+[[extra.footer_links]]
 text = "GitHub"
 url = "https://github.com/rutrum"
-icon = "nf-fa-github"
+icon = "github"
 
-[[extra.footer.links]]
+[[extra.footer_links]]
 text = "stringcase.org"
 url = "https://stringcase.org"
-icon = "nf-fa-quote_right"
+icon = "quote"
