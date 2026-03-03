@@ -18,7 +18,24 @@
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "typeset": "typeset"
+      }
+    },
+    "typeset": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1772497006,
+        "narHash": "sha256-OxaNGn7PvRnDyc6NaYDHM6U3WlZ8k6GpMejMYxL+Nlo=",
+        "owner": "rutrum",
+        "repo": "typeset",
+        "rev": "d259f11af435d942569fb69c4660551f21abe53c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rutrum",
+        "repo": "typeset",
+        "type": "github"
       }
     }
   },
