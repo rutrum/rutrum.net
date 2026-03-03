@@ -23,11 +23,6 @@ nav_links = [
 ]
 
 [[extra.footer_links]]
-text = "TypeSync"
-url = "https://typesync.rutrum.net"
-icon = "keyboard"
-
-[[extra.footer_links]]
 text = "GitHub"
 url = "https://github.com/rutrum"
 icon = "github"

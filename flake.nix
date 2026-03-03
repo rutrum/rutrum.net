@@ -12,7 +12,10 @@
       packages.${system}.default = pkgs.stdenv.mkDerivation {
         pname = "rutrum.net";
         version = "0.1.0";
-        src = ./.;
+        src = builtins.fetchGit {
+          url = ./.;
+          submodules = true;
+        };
         nativeBuildInputs = with pkgs; [ zola ];
         buildPhase = "zola build";
         installPhase = "cp -r public $out";
