@@ -1,0 +1,3 @@
+[submodule "themes/typeset"]
+	path = themes/typeset
+	url = https://github.com/rutrum/typeset.git

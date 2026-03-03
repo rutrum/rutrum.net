@@ -58,7 +58,7 @@ When I finally got rid of dairy over 2 weeks in, I noticed I started "snacking" 
 
 I was warned that as I transitioned from using carbs as an energy source to fat I might experience some _irregularity_ in my trips to the bathroom.  It wasn't as bad as I expected.  I've hidden this part of the article in case you aren't interested in hearing about it.
 
-{{ spoiler(msg="Click here for a full calendar and discussion.") }}
+{% spoiler(title="Click here for a full calendar and discussion.") %}
 
 Here is a calendar marking every bowel movement I made for the whole diet.  Each bold number represents a single trip to the bathroom, where it's appearance was measured based on the [bristol stool chart](https://www.webmd.com/digestive-disorders/poop-chart-bristol-stool-scale).  That is, 1 or 2 is too dry, 3 to 4 is just right, and 5 to 7 is too wet.
 
@@ -79,7 +79,7 @@ I had been warned of diarrhea for two weeks straight, but that was far from what
 
 You might wonder what happened on November 18th, where I had the three _worst_ movements of the whole diet all in the same day, just hours apart.  Well, I believe this was the result of eating really, really cheap meat.  I believe the day prior I had eaten nearly a pound of steak that cost me just $3.28.  Which, if you aren't familiar, is a really low quality cut of meat.  It was definitely not meant for eating like one you'd order at a steakhouse.  I've learned my lesson about steaks, that's for sure, but I have much to learn still.
 
-{{ spoiler(end=true) }}
+{% end %}
 
 ## Dieting Beyond Food
 
@@ -204,7 +204,7 @@ I couldn't be happier with the result.  I've gone through diets before that had 
 
 The other measurements are expected.  I'm very pleased to see that my gut shrank by a couple inches.  My chest hadn't, but I assume any fat loss was offset by chest exercises.  Better than these numbers however, are comparison of pictures I took before and after the diet.  I've come to appreciate how my body changed more so that the numbers.  Of course, view these if you really want.  I'll discuss the results regardless.
 
-{{ spoiler(msg="Yes, please show me pictures of your naked chest.") }}
+{% spoiler(title="Yes, please show me pictures of your naked chest.") %}
 
 The start of the diet is on the left and today's results are on the right.
 
@@ -222,7 +222,7 @@ I've also overlayed the images on top of one another to really compare profiles.
     "/carnivore/body_pics/side_overlay.jpg",
 ]) }}
 
-{{ spoiler(end=true) }}
+{% end %}
 
 The images really align with the results.  It didn't just fudge the numbers or drop exclusively water weight.  These images reveal to me that my body actually did change for the better.  I'm very happy with the results.  I look forward to seeing how much more fat I can drop and muscle I can gain.
 
