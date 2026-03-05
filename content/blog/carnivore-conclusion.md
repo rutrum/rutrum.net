@@ -1,9 +1,10 @@
 +++
 title = "Carnivore Diet Conclusion"
+description = "The results of a 1 month carnivore diet."
 date = 2020-11-26
 
 [taxonomies]
-tags = ["diet"]
+tags = ["health"]
 +++
 
 Happy Thanksgiving.  Today marks the end of my 33 day long carnivore diet.  It was as exciting as I thought it would be. I will discuss how fun cooking was, the difficulties I faced at the grocery store, and of course, analyse some numbers to see if there's some truth behind this "diet."  

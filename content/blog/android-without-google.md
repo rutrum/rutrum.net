@@ -1,5 +1,6 @@
 +++
 title = "Using Android Without Google"
+description = "My attempt at minimizing Google services on Android."
 date = 2022-09-26
 
 [taxonomies]

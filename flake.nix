@@ -33,6 +33,10 @@
             just
             microserver
         ];
+        shellHook = ''
+          mkdir -p themes
+          ln -sfn ${typeset} themes/typeset
+        '';
     };
   };
 }

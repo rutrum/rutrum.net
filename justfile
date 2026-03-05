@@ -1,8 +1,8 @@
+serve:
+    zola serve --drafts
+
 build:
     zola build
-
-serve:
-    zola serve
 
 prod:
     zola build
