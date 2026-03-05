@@ -1,5 +1,5 @@
 +++
 title = "Articles"
-description = "Programming projects and crazy experimental diets."
+description = "Blog posts."
 sort_by = "date"
 +++

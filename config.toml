@@ -1,5 +1,5 @@
 base_url = "https://rutrum.net"
-title = "Rutrum"
+title = "rutrum"
 description = "Personal website."
 compile_sass = true
 theme = "typeset"
@@ -18,8 +18,8 @@ dark_theme = "catppuccin-frappe"
 author = "rutrum"
 
 nav_links = [
-    { name = "Home", url = "/" },
     { name = "Blog", url = "/blog" },
+    { name = "About", url = "/about" },
 ]
 
 [[extra.footer_links]]

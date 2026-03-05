@@ -1,9 +1,10 @@
 +++
 title = "Carnivore Diet"
+description = "The beginning of a 1 month carnivore diet challenge."
 date = 2020-10-24
 
 [taxonomies]
-tags = ["diet"]
+tags = ["health"]
 +++
 
 I've decided to try something extreme.  I'm not doing it for some weightloss goal nor am I making a stance against veganism.  I'm doing it because it's fun.  I enjoy challenging myself, especially when it comes to eating.  I like knowing that I'm in control of my eating habits and cravings.  Fasting is another one of these challenges that I have extensive experience doing (I went 5 days straight without eating once.)
