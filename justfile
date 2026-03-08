@@ -1,5 +1,5 @@
 serve:
-    zola serve --drafts
+    zola serve -i 0.0.0.0 --drafts --base-url /
 
 build:
     zola build
