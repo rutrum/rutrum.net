@@ -25,11 +25,11 @@
     "typeset": {
       "flake": false,
       "locked": {
-        "lastModified": 1772937268,
-        "narHash": "sha256-QCIjrIe1H+hiy7BlZSwWxWMUYLDLu0O0U5ezZTa1+i4=",
+        "lastModified": 1773259425,
+        "narHash": "sha256-bslNiSHEbZvQFxW5oRWej2WSKfgTmnMCfdfX67HRyt4=",
         "owner": "rutrum",
         "repo": "typeset",
-        "rev": "cb942f0434fdf0d166ab296fc163dcd8c7bae7bf",
+        "rev": "83b47e7ae7574c6fd35bb84bd3b4858b9d3a84c8",
         "type": "github"
       },
       "original": {
