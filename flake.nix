@@ -32,6 +32,7 @@
             zola
             just
             microserver
+            vale
         ];
         shellHook = ''
           mkdir -p themes
